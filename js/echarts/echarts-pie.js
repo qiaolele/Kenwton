@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 var myChart = echarts.init(document.getElementById('bar'));
 var myChart1 = echarts.init(document.getElementById('main'));
@@ -79,6 +80,11 @@ option = {
 // 使用刚指定的配置项和数据显示图表。
 myChart.setOption(option);
 //三个饼图
+=======
+var myChart1 = echarts.init(document.getElementById('main1'));
+var myChart2 = echarts.init(document.getElementById('main2'));
+var myChart3 = echarts.init(document.getElementById('main'));
+>>>>>>> b420461952ec74957886b7acce50a3da79f8cb92
 var labelTop = {
   normal : {
     label : {
@@ -184,10 +190,17 @@ option3 = {
 };
 myChart3.setOption(option3);
 window.onresize = function () {
+<<<<<<< HEAD
   myChart.resize();
+=======
+  //myChart.resize();
+>>>>>>> b420461952ec74957886b7acce50a3da79f8cb92
   myChart1.resize();
   myChart2.resize();
   myChart3.resize();
 };
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> b420461952ec74957886b7acce50a3da79f8cb92

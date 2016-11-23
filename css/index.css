@@ -1,7 +1,11 @@
 
 /*首页——我的学情*/
 .wdxq .wdxq-con{
+<<<<<<< HEAD
     background:#fff url(../images/wdxq_bg.png) no-repeat center center;
+=======
+    background: url(../images/wdxq_bg.png) no-repeat center center;
+>>>>>>> b420461952ec74957886b7acce50a3da79f8cb92
     height: 227px;
 }
 .wdxq-title,
@@ -28,14 +32,22 @@
 }
 .wdxq-item-text{
     background: #fff;
+<<<<<<< HEAD
     /*padding-bottom:5px;*/
+=======
+    padding-bottom:20px;
+>>>>>>> b420461952ec74957886b7acce50a3da79f8cb92
 
 }
 .wdxq .wdxq-qyz,
 .wdxq .wdxq-dqpm,
 .wdxq .wdxq-mzdt{
     display:block;
+<<<<<<< HEAD
     padding-top:60px;
+=======
+    padding-top:80px;
+>>>>>>> b420461952ec74957886b7acce50a3da79f8cb92
     padding-bottom:34px;
     font-size:60px;
     color:#84cbfb;
@@ -64,6 +76,7 @@
     text-align: right;
     padding-right: 0;
 }
+<<<<<<< HEAD
 .moreActions-box .dropdown{
     position:relative;
     text-align:right;
@@ -76,6 +89,19 @@
 }
 .moreActions-box .dropdown .moreActions{
     background: url(../images/icon.png) no-repeat -242px 10px
+=======
+.wdxq-title-help .moreActions{
+    color: #999;
+    font-size: 14px;
+    text-decoration: none;
+    position: relative;
+    top: -6px;
+    background: url(../images/icon.png) no-repeat -224px -2px;
+    padding-left: 16px;
+    width: 103px;
+    text-align: left;
+    display: inline-block;
+>>>>>>> b420461952ec74957886b7acce50a3da79f8cb92
 }
 .moreActions-con{
     position:absolute;right:4%;top:40px;background: #fafafa;
@@ -101,9 +127,13 @@
 .xxjh .xxjh-con{
     color:#b8b8b8;
     font-size:16px;
+<<<<<<< HEAD
     padding-bottom: 15px;
     padding-top: 10px;
     margin:0;
+=======
+    padding-bottom: 20px;
+>>>>>>> b420461952ec74957886b7acce50a3da79f8cb92
 }
 .xxjh .xxjh-con span,
 .xxjh .xxjh-con span a
@@ -127,16 +157,23 @@
     border-bottom:1px solid #ededed;
     padding:11px  20px 11px 0;
 }
+<<<<<<< HEAD
 .xxjh .viewReportBtn{
     margin-left: 15px;
 }
+=======
+>>>>>>> b420461952ec74957886b7acce50a3da79f8cb92
 .xxjh-btn .going{
     color:#999;
     font-size:16px;
 }
 .pzjh .progress-box{
+<<<<<<< HEAD
     padding-bottom: 50px;
     padding-top: 40px;
+=======
+    padding-bottom: 30px;
+>>>>>>> b420461952ec74957886b7acce50a3da79f8cb92
 }
 .xxjh-con{
     margin-top:20px;
@@ -151,7 +188,11 @@
 }
 .pzjh .pzjh-title{
     padding:10px 0 10px 55px;
+<<<<<<< HEAD
     background: url(../images/icon.png) no-repeat 16px -100px;
+=======
+    background: url(../images/icon.png) no-repeat 17px -100px;
+>>>>>>> b420461952ec74957886b7acce50a3da79f8cb92
     font-size:16px;
     color:#333;
 }
@@ -162,11 +203,14 @@
 .pzjh .every-time{
     background: url(../images/icon.png) no-repeat 17px -141px;
 }
+<<<<<<< HEAD
 .pzjh .plan-time,
 .pzjh .plan-strength{
     padding:3px 0 10px 33px;
     background: url(../images/icon.png) no-repeat -6px -106px;
 }
+=======
+>>>>>>> b420461952ec74957886b7acce50a3da79f8cb92
 .pzjh .chip{
     margin-bottom: 10px;
 }
@@ -180,6 +224,7 @@
     font-size:14px;
     color:#b6b6b6;
 }
+<<<<<<< HEAD
 .progress-line{
     display:block;
     position:absolute;
@@ -188,6 +233,8 @@
     background:#b6b6b6;
     top:-17px;left:50%;
 }
+=======
+>>>>>>> b420461952ec74957886b7acce50a3da79f8cb92
 .pzjh .strength .col-md-6{
     padding-left:0;
     padding-right:0;
@@ -214,6 +261,7 @@
     background: url(../images/icon.png) no-repeat -6px -256px;
     padding:10px 15px 0px 33px;
 }
+<<<<<<< HEAD
 .strength .week-times{
     background: url(../images/icon.png) no-repeat -6px -230px;
     padding:0px 15px 10px 33px;
@@ -254,6 +302,15 @@
     left: 1rem;
     color:#888;
     top: 5px;
+=======
+.pzjh .strength .week-times{
+    background: url(../images/icon.png) no-repeat -6px -220px;
+    padding:10px 15px 10px 33px;
+}
+.pzjh .strength .plan-name{
+    background: url(../images/icon.png) no-repeat -55px -32px;
+    padding:10px 15px 10px 33px;
+>>>>>>> b420461952ec74957886b7acce50a3da79f8cb92
 }
 /*公共下拉框*/
 .dropdown{
@@ -268,6 +325,7 @@
 }
 .caret {
     float: right;
+<<<<<<< HEAD
     margin-top: -5px;
 }
 .dropdown .btn{
@@ -313,6 +371,9 @@
     background-color:none;
     color:#888;
     padding-left: 0;
+=======
+    margin-top: 10px;
+>>>>>>> b420461952ec74957886b7acce50a3da79f8cb92
 }
 /*预览计划*/
 .yljh{
@@ -360,9 +421,13 @@
     position: relative;
     left:4rem;
     opacity: 1;
+<<<<<<< HEAD
     top:3px;
     width: 18px;
     height: 18px;
+=======
+    top:2px;
+>>>>>>> b420461952ec74957886b7acce50a3da79f8cb92
 }
 input:not([type]), input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea.materialize-textarea{
     height:2.1rem;
@@ -400,6 +465,7 @@ input:not([type]), input[type=text], input[type=password], input[type=email], in
     font-size:16px;
     color: #666666;
 }
+<<<<<<< HEAD
 .timeAxis-box{
     padding:0 0 3px 1px;
 }
@@ -410,6 +476,10 @@ input:not([type]), input[type=text], input[type=password], input[type=email], in
     line-height:40px;
     background:#fff;
     padding:20px 10px 17px 9px;
+=======
+.xxgj-dxls .timeAxis-item{
+    line-height:40px;background:#fff;padding:10px;
+>>>>>>> b420461952ec74957886b7acce50a3da79f8cb92
 }
 .timeAxis-item .col-md-3{
     text-align: right;
@@ -478,6 +548,7 @@ input:not([type]), input[type=text], input[type=password], input[type=email], in
 }
 .wdnl .dropdown-date{
     border: none;
+<<<<<<< HEAD
     text-align:right;
 }
 .wdnl .dropdown-date .caret{
@@ -485,6 +556,9 @@ input:not([type]), input[type=text], input[type=password], input[type=email], in
     margin-top: 8px;
 }
 
+=======
+}
+>>>>>>> b420461952ec74957886b7acce50a3da79f8cb92
 /*排名分析*/
 .myAbility-fontSize{
     font-size:16px;
@@ -497,17 +571,23 @@ input:not([type]), input[type=text], input[type=password], input[type=email], in
 }
 .goodState .goodState-icon{
     text-align:center;padding-bottom:20px;
+<<<<<<< HEAD
     color:#777;
+=======
+>>>>>>> b420461952ec74957886b7acce50a3da79f8cb92
 }
 .goodState .goodState-box{
     height:172px;
     line-height:172px;
     margin-bottom: 10px;
 }
+<<<<<<< HEAD
 .goodState-icon .ranking{
     color:#777;
     text-decoration: none;
 }
+=======
+>>>>>>> b420461952ec74957886b7acce50a3da79f8cb92
 /*学习中*/
 .test{
     font-size:16px;
@@ -523,7 +603,10 @@ input:not([type]), input[type=text], input[type=password], input[type=email], in
     /*background: #fff;*/
     /*padding-left:10px;*/
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> b420461952ec74957886b7acce50a3da79f8cb92
 .test .test-rightBoxCon{
     background: #fff;
     padding: 20px;
@@ -544,7 +627,11 @@ input:not([type]), input[type=text], input[type=password], input[type=email], in
     padding:20px;
     color:#444;
     background: #ffffff;
+<<<<<<< HEAD
     margin-bottom: 36px;
+=======
+    margin-bottom: 40px;
+>>>>>>> b420461952ec74957886b7acce50a3da79f8cb92
     box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),0 1px 5px 0 rgba(0,0,0,0.12),0 3px 1px -2px rgba(0,0,0,0.2);
 }
 .test .test-leftBox .test-option{
@@ -567,9 +654,15 @@ input:not([type]), input[type=text], input[type=password], input[type=email], in
     background: #dedede;
 }
 /*提交_正确样式*/
+<<<<<<< HEAD
 /*.test .test-leftBox .test-quesOptionTrue{*/
     /*background:#fff url(../images/true.png) no-repeat 97% center;*/
 /*}*/
+=======
+.test .test-leftBox .test-quesOptionTrue{
+    background:url(../images/true.png) no-repeat 97% center;
+}
+>>>>>>> b420461952ec74957886b7acce50a3da79f8cb92
 .test .test-leftBox .test-circleTrue{
     background:#a5d738;
     border:none;
@@ -577,7 +670,11 @@ input:not([type]), input[type=text], input[type=password], input[type=email], in
 }
 /*提交_错误样式*/
 .test .test-leftBox .test-quesOptionFalse{
+<<<<<<< HEAD
     background:#fff url(../images/false.png) no-repeat 97% center;
+=======
+    background:url(../images/false.png) no-repeat 97% center;
+>>>>>>> b420461952ec74957886b7acce50a3da79f8cb92
 }
 .test .test-leftBox .test-circleFalse{
     background:#fd775d;
@@ -590,6 +687,7 @@ input:not([type]), input[type=text], input[type=password], input[type=email], in
 .test .test-errorRateBox,
 .test .test-makeComplaints{
     background: #ffffff;
+<<<<<<< HEAD
     padding: 15px 20px;
     box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),0 1px 5px 0 rgba(0,0,0,0.12),0 3px 1px -2px rgba(0,0,0,0.2);
     margin-bottom: 10px;
@@ -604,6 +702,12 @@ input:not([type]), input[type=text], input[type=password], input[type=email], in
 .test .test-errorRateBox{
     margin-bottom: 26px;
 }
+=======
+    padding: 10px 20px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),0 1px 5px 0 rgba(0,0,0,0.12),0 3px 1px -2px rgba(0,0,0,0.2);
+    margin-bottom: 10px;
+}
+>>>>>>> b420461952ec74957886b7acce50a3da79f8cb92
 .test .test-analysis{
     color:#444;
     font-size:14px;
@@ -621,16 +725,23 @@ input:not([type]), input[type=text], input[type=password], input[type=email], in
 }
 .test .errorRate-title{
     background: #fd775d;
+<<<<<<< HEAD
     margin-bottom: 35px;
+=======
+>>>>>>> b420461952ec74957886b7acce50a3da79f8cb92
 }
 /*错误率*/
 .test .progress{
     background: #e6e6e6;
+<<<<<<< HEAD
     margin-bottom: 30px;
+=======
+>>>>>>> b420461952ec74957886b7acce50a3da79f8cb92
 }
 .test .progress .determinate{
     background: #fd775d;
 }
+<<<<<<< HEAD
 /*错误率进度条*/
 .progress{
     height: 10px;
@@ -692,6 +803,8 @@ input:not([type]), input[type=text], input[type=password], input[type=email], in
 @keyframes animate-positive {
     0% { width:0%; }
 }
+=======
+>>>>>>> b420461952ec74957886b7acce50a3da79f8cb92
 /*我要吐槽*/
 .test .complaintsMargin{
     padding:0 20px;
@@ -700,7 +813,10 @@ input:not([type]), input[type=text], input[type=password], input[type=email], in
     padding:10px;
     border:1px solid #d6d6d6;
     height:140px;
+<<<<<<< HEAD
     margin: 10px 0;
+=======
+>>>>>>> b420461952ec74957886b7acce50a3da79f8cb92
 }
 .test .test-wantCorrect{
     padding-left: 0;
@@ -709,8 +825,14 @@ input:not([type]), input[type=text], input[type=password], input[type=email], in
     font-size:14px;
 }
 .test .complaints-title{
+<<<<<<< HEAD
     margin: 10px 0 15px 0;
     padding: 0;
+=======
+    background:#4aacee;
+    margin-top:5px;
+    padding:8px 0;
+>>>>>>> b420461952ec74957886b7acce50a3da79f8cb92
 }
 /*吐槽列表*/
 .test .test-complainListLogo{
@@ -750,6 +872,7 @@ input:not([type]), input[type=text], input[type=password], input[type=email], in
 }
 /*观看视频*/
 .test-watchVideo{
+<<<<<<< HEAD
     margin-bottom:26px;
     box-shadow:0 2px 2px 0 rgba(0,0,0,0.14),0 1px 5px 0 rgba(0,0,0,0.12),0 3px 1px -2px rgba(0,0,0,0.2);
 }
@@ -800,4 +923,10 @@ input:not([type]), input[type=text], input[type=password], input[type=email], in
 }
 .noBoxSadow{
     box-shadow:none;
+=======
+    hegiht:470px;margin-bottom:20px;
+}
+.test-watchVideo img{
+    width: 100%;
+>>>>>>> b420461952ec74957886b7acce50a3da79f8cb92
 }

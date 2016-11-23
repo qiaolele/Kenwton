@@ -10,10 +10,73 @@
     <link rel="stylesheet" href="css/noUiSlider/nouislider.min.css">
     <link rel="stylesheet" href="css/index.css"/>
     <link rel="stylesheet" href="css/common.css"/>
+<<<<<<< HEAD
+=======
+    <!--<link rel="stylesheet" href="css/materialize/css/ghpages-materialize.css"/>-->
+    <style>
+        .progress{
+            height: 10px;
+            line-height: 10px;
+            background: #e6e6e6;
+            box-shadow: none;
+            padding: 6px;
+            margin-top:20px;
+            overflow: visible;
+            border-radius:10px;
+        }
+
+        .progress .progress-bar{
+            position: relative;
+            border-radius: 10px 10px 10px 10px;
+            animation: animate-positive 2s;
+            background: #fd775d;
+            top: -6px;
+            left: -6px;
+        }
+        .progress-bar {
+            height: 12px;
+            line-height: 20px;
+        }
+        .progress .progress-bar span{
+            position: absolute;
+            top: -42px;
+            right: -20px;
+            color: #fff;
+            display: block;
+            font-size: 17px;
+            font-weight: bold;
+            padding: 5px 7px;
+            background: #4c4c4c;
+        }
+        .progress .progress-bar span:before{
+            position: absolute;
+            bottom: -14px;
+            left: 18px;
+            border: 7px solid transparent;
+            border-top: 7px solid #333;
+        }
+        .progress .progress-bar span:after{
+            font-family: fontawesome;
+            font-size: 48px;
+            color: #333;
+            position: absolute;
+            top: 51px;
+            right: 6px;
+            transform: rotateZ(48deg);
+        }
+        @-webkit-keyframes animate-positive {
+            0% { width: 0%;}
+        }
+        @keyframes animate-positive {
+            0% { width:0%; }
+        }
+    </style>
+>>>>>>> b420461952ec74957886b7acce50a3da79f8cb92
 </head>
 <body>
 <!--header头部-->
 <header class="header-box">
+<<<<<<< HEAD
     <nav class="nav-extended">
         <div class="nav-wrapper">
             <a href="#" class="brand-logo">奇异数学</a>
@@ -32,6 +95,27 @@
             </ul>
         </div>
     </nav>
+=======
+    <div class="navbar-fixed">
+        <nav class="nav-extended ">
+            <div class="nav-wrapper row">
+                <a href="#" class="brand-logo brand-qysx ">奇异数学</a>
+                <!--非首页显示创建计划-->
+                <a href="#" class="brand-logo brand-cjjh hide">学习中</a>
+                <ul class="right hide-on-med-and-down">
+                    <li class="nav-home"><a href="xxx.html"><img src="images/home.png" alt=""/></a></li>
+                    <li class="nav-people"><a href="xxx.html"><img src="images/nav_people.png" alt=""/></a></li>
+                </ul>
+                <!--tab让其隐藏-->
+                <ul class="tabs tabs-transparent hide">
+                    <li class="tab"><a href="#test1">时间轴</a></li>
+                    <li class="tab"><a class="active" href="#test2">计划历史</a></li>
+                    <li class="tab"><a href="#test3">单项历史</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+>>>>>>> b420461952ec74957886b7acce50a3da79f8cb92
 </header>
 <section>
     <article>
@@ -44,6 +128,7 @@
                             <div class="test-questions">
                                 1、把曲线ycosx+2y－1=0先沿x轴向右平移___个单位，再沿y轴向下平移，得到的曲线程是?
                             </div>
+<<<<<<< HEAD
                              <div class="test-quesOption">
                                 <p class="test-option test-optionA">
                                     <span class="test-circle ">A</span>
@@ -75,6 +160,17 @@
                                     <div class="col-md-2 commPaddLeft">
                                         <span class="analysis-title">解析</span>
                                     </div>
+=======
+                            <div class="test-quesOption">
+                                <p class="test-option test-optionA"><span class="test-circle">A</span>向左平移  6个长度单位</p>
+                                <p class="test-option test-optionB test-quesOptionSelect"><span class="test-circle">B</span>向左平移  6个长度单位</p>
+                                <p class="test-option test-optionC test-quesOptionTrue"><span class="test-circle test-circleTrue">C</span>向左平移  6个长度单位</p>
+                                <p class="test-option test-optionD test-quesOptionFalse"><span class="test-circle test-circleFalse">D</span>向左平移  6个长度单位</p>
+                            </div>
+                            <div class="test-analysisBox">
+                                <div class="row">
+                                    <span class="analysis-title col-md-2">解析</span>
+>>>>>>> b420461952ec74957886b7acce50a3da79f8cb92
                                 </div>
                                 <div class="test-analysis ">
                                     Dialog最典型的应用场景是提示用户去做一个些被安排好的决定 ，而这些决定可能是当前任务分或者是前至条件。
@@ -84,18 +180,27 @@
                             </div>
                             <div class="test-errorRateBox">
                                 <div class="row">
+<<<<<<< HEAD
                                     <div class="col-md-2 commPaddLeft">
                                         <span class="errorRate-title">错误率</span>
                                     </div>
 
+=======
+                                    <span class="errorRate-title col-md-2">错误率</span>
+>>>>>>> b420461952ec74957886b7acce50a3da79f8cb92
                                 </div>
                                 <div class="test-errorRate ">
                                     <div class="row clear progress-box">
                                         <div class="col-md-12">
                                             <div class="progress">
+<<<<<<< HEAD
                                                 <div class="progress-bar" style="width: 15%;">
                                                     <span>15% </span>
 
+=======
+                                                <div class="progress-bar" style="width: 55%;">
+                                                    <span>55%</span>
+>>>>>>> b420461952ec74957886b7acce50a3da79f8cb92
                                                 </div>
                                             </div>
                                         </div>
@@ -104,9 +209,13 @@
                             </div>
                             <div class="test-makeComplaints">
                                 <div class="row">
+<<<<<<< HEAD
                                     <div class="col-md-2 commPaddLeft">
                                         <span class="analysis-title">吐槽</span>
                                     </div>
+=======
+                                    <span class="analysis-title col-md-2">吐槽</span>
+>>>>>>> b420461952ec74957886b7acce50a3da79f8cb92
                                 </div>
                                 <div class="row complaintsMargin">
                                     <textarea name="complaints" class="complaints-con" cols=100 rows=10>
@@ -115,11 +224,19 @@
                                 </div>
                                 <div class="row complaintsMargin">
                                     <span class="col-md-2 test-wantCorrect">我要纠错</span>
+<<<<<<< HEAD
                                     <span class="col-md-7"></span>
                                     <a class="waves-effect col-md-3 complaints-title waves-light btn comm-littleBtn comm-littleBtnHover">我要吐槽</a>
                                 </div>
                                 <div class="test-complaintsList complaintsMargin row">
                                     <div class="col-md-1 commPaddLeft">
+=======
+                                    <span class="col-md-8"></span>
+                                    <span class="complaints-title col-md-2">我要吐槽</span>
+                                </div>
+                                <div class="test-complaintsList complaintsMargin row">
+                                    <div class="col-md-1">
+>>>>>>> b420461952ec74957886b7acce50a3da79f8cb92
                                         <img class="test-complainListLogo" src="images/complaints_logo.png" alt=""/>
                                     </div>
                                     <div class="col-md-8">
@@ -129,13 +246,21 @@
                                     <div class="col-md-1">
                                         <p class="test-complainListTime">2016/10/10</p>
                                     </div>
+<<<<<<< HEAD
                                     <div class="col-md-2 commPaddRight" style="text-align:right;">
+=======
+                                    <div class="col-md-2" style="text-align:right;">
+>>>>>>> b420461952ec74957886b7acce50a3da79f8cb92
                                         <a class="test-complainListLike" href="###">20</a>
                                         <p class="test-complainListMinutes">10:00</p>
                                     </div>
                                 </div>
                                 <div class="test-complaintsList complaintsMargin row">
+<<<<<<< HEAD
                                     <div class="col-md-1 commPaddLeft">
+=======
+                                    <div class="col-md-1">
+>>>>>>> b420461952ec74957886b7acce50a3da79f8cb92
                                         <img class="test-complainListLogo" src="images/complaints_logo.png" alt=""/>
                                     </div>
                                     <div class="col-md-8">
@@ -145,13 +270,21 @@
                                     <div class="col-md-1">
                                         <p class="test-complainListTime">2016/10/10</p>
                                     </div>
+<<<<<<< HEAD
                                     <div class="col-md-2 commPaddRight" style="text-align:right;">
+=======
+                                    <div class="col-md-2" style="text-align:right;">
+>>>>>>> b420461952ec74957886b7acce50a3da79f8cb92
                                         <a class="test-complainListLike test-complainListLikeSelect" href="###">20</a>
                                         <p class="test-complainListMinutes">10:00</p>
                                     </div>
                                 </div>
                                 <div class="test-complaintsList complaintsMargin row">
+<<<<<<< HEAD
                                     <div class="col-md-1 commPaddLeft">
+=======
+                                    <div class="col-md-1">
+>>>>>>> b420461952ec74957886b7acce50a3da79f8cb92
                                         <img class="test-complainListLogo" src="images/complaints_logo.png" alt=""/>
                                     </div>
                                     <div class="col-md-8">
@@ -161,13 +294,21 @@
                                     <div class="col-md-1">
                                         <p class="test-complainListTime">2016/10/10</p>
                                     </div>
+<<<<<<< HEAD
                                     <div class="col-md-2 commPaddRight" style="text-align:right;">
+=======
+                                    <div class="col-md-2" style="text-align:right;">
+>>>>>>> b420461952ec74957886b7acce50a3da79f8cb92
                                         <a class="test-complainListLike" href="###">20</a>
                                         <p class="test-complainListMinutes">10:00</p>
                                     </div>
                                 </div>
                                 <div class="test-complaintsList complaintsMargin row">
+<<<<<<< HEAD
                                     <div class="col-md-1 commPaddLeft">
+=======
+                                    <div class="col-md-1">
+>>>>>>> b420461952ec74957886b7acce50a3da79f8cb92
                                         <img class="test-complainListLogo" src="images/complaints_logo.png" alt=""/>
                                     </div>
                                     <div class="col-md-8">
@@ -177,7 +318,11 @@
                                     <div class="col-md-1">
                                         <p class="test-complainListTime">2016/10/10</p>
                                     </div>
+<<<<<<< HEAD
                                     <div class="col-md-2 commPaddRight" style="text-align:right;">
+=======
+                                    <div class="col-md-2" style="text-align:right;">
+>>>>>>> b420461952ec74957886b7acce50a3da79f8cb92
                                         <a class="test-complainListLike test-complainListLikeSelect" href="###">20</a>
                                         <p class="test-complainListMinutes">10:00</p>
                                     </div>
@@ -201,7 +346,11 @@
                             </div>
 
                         </div>
+<<<<<<< HEAD
                         <a class="waves-effect waves-light btn btn-lg btn-block comm-largeBtn btn-bgColor ">继续</a>
+=======
+                        <button type="button" class="btn btn-primary  btn-lg btn-block comm-largeBtn btn-bgColor">继续</button>
+>>>>>>> b420461952ec74957886b7acce50a3da79f8cb92
                     </div>
                     <div class="col-md-4 test-rightBox">
                         <div class="test-rightBoxCon">
@@ -221,6 +370,7 @@
     </article>
 </section>
 </body>
+<<<<<<< HEAD
 <script src="js/jquery-2.1.4.min.js"></script>
 <script src="js/bootstrap/js/bootstrap.js"></script>
 <script src="js/materialize/js/materialize.js"></script>
@@ -232,4 +382,30 @@
     })
 </script>
 
+=======
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/respond.min.js"></script>
+<!--<script src="js/bootstrap/js/bootstrap.js"></script>-->
+<!--<script src="js/materialize/js/materialize.js"></script>-->
+<script src="js/echarts/echarts.common.min.js"></script>
+<!--<script src="css/noUiSlider/nouislider.min.js"></script>-->
+<script src="js/echarts/echarts-all.js"></script>
+<script src="js/echarts/biao.js"></script>
+
+<script src="js/jquery-1.8.3.min.js"></script>
+<!--<script src="js/bootstrap/js/bootstrap.js"></script>-->
+<!--<script src="js/materialize/js/materialize.js"></script>-->
+<script src="js/echarts/echarts.common.min.js"></script>
+<script src="js/echarts/echarts-pie.js"></script>
+<script src="js/echarts/echart-bar.js"></script>
+<!--[if lte IE 9]>
+<script src="js/respond.min.js"></script>
+<script src="js/html5.js"></script>
+<![endif]-->
+<script src="http://libs.baidu.com/jquery/1.10.2/jquery.js"></script>
+<script src="js/bootstrap/js/bootstrap.min.js"></script>
+<script>
+
+</script>
+>>>>>>> b420461952ec74957886b7acce50a3da79f8cb92
 </html>

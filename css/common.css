@@ -10,12 +10,15 @@ body{
 .clear{
     clear:both;
 }
+<<<<<<< HEAD
 .commPaddLeft{
     padding-left: 0;
 }
 .commPaddRight{
     padding-right: 0;
 }
+=======
+>>>>>>> b420461952ec74957886b7acce50a3da79f8cb92
 .hide{
     display:none;
 }
@@ -23,12 +26,17 @@ body{
     padding-top: 50px;
 }
 .container-box{
+<<<<<<< HEAD
     padding-top:120px;
     padding-bottom: 50px;
 }
 /*.containerPaddTop{*/
     /*padding-top: 120px;*/
 /*}*/
+=======
+    padding-top:60px;
+}
+>>>>>>> b420461952ec74957886b7acce50a3da79f8cb92
 .container{
     padding-left:0;
     padding-right:0;
@@ -77,12 +85,15 @@ body{
     line-height:66px;
     background-color:#ffaf02;
 }
+<<<<<<< HEAD
 .comm-littleBtn{
     background-color:#4aacee;
 }
 .testBtn{
     margin-top: 50px;
 }
+=======
+>>>>>>> b420461952ec74957886b7acce50a3da79f8cb92
 /*按钮颜色*/
 .btn-bgColor{
     background-color: #e9732c;
@@ -92,6 +103,7 @@ body{
     background-color: #ffaf02;
     opacity: .4;
 }
+<<<<<<< HEAD
 .comm-littleBtnHover:hover{
     background-color:#4aacee;
     opacity: .4;
@@ -107,6 +119,14 @@ body{
 nav.nav-extended{
     clear:both;overflow:hidden;
 }
+=======
+
+
+/*头部样式*/
+/*.header-box{*/
+    /*margin-bottom:30px;*/
+/*}*/
+>>>>>>> b420461952ec74957886b7acce50a3da79f8cb92
 nav{
     background: #4aacee;
 }
@@ -141,11 +161,18 @@ nav .brand-logo {
 }
 .table-exercise td,
 .table-exercise th{
+<<<<<<< HEAD
     text-align: center;
     font-size:14px;
     color:#444;
 }
 
+=======
+    /*text-align: center;*/
+    font-size:14px;
+    color:#444;
+}
+>>>>>>> b420461952ec74957886b7acce50a3da79f8cb92
 .table > thead > tr > th {
     line-height: 43px;
 }
@@ -153,6 +180,7 @@ nav .brand-logo {
     font-size: 16px;
     color: #999;
 }
+<<<<<<< HEAD
 .table > thead > tr > th.tableTextLeft{
     text-align:left;
     padding-left:2rem;
@@ -161,6 +189,8 @@ nav .brand-logo {
     text-align: left;
     padding-left: 2rem;
 }
+=======
+>>>>>>> b420461952ec74957886b7acce50a3da79f8cb92
 .table-exercise span{
     display: inline-block;
     text-align: left;
@@ -168,7 +198,10 @@ nav .brand-logo {
     margin-left: 10px;
 }
 .table-exercise .state_finish i,
+<<<<<<< HEAD
 .table-exercise .state_going i,
+=======
+>>>>>>> b420461952ec74957886b7acce50a3da79f8cb92
 .table-exercise .state_close i
 {
     display:inline-block;
@@ -177,11 +210,18 @@ nav .brand-logo {
     height:11px;
 }
 .table-exercise .state_going i{
+<<<<<<< HEAD
     background: url(../images/going.gif) no-repeat 1px 5px;
     width: 20px;
 }
 .table-exercise .state_close i{
     background: url(../images/icon.png) no-repeat -151px -10px;
+=======
+    display:inline-block;
+    background: url(../images/icon.png) no-repeat 0 0;
+    width:11px;
+    height:11px;
+>>>>>>> b420461952ec74957886b7acce50a3da79f8cb92
 }
 .table-exercise .btn-going,
 .table-exercise .btn-close{
@@ -325,6 +365,7 @@ nav .brand-logo {
 
 }
 input:not([type]), input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea.materialize-textarea {
+<<<<<<< HEAD
     text-align: center;
 }
 .panel-default>.panel-heading {
@@ -343,11 +384,29 @@ input:not([type]), input[type=text], input[type=password], input[type=email], in
 }
 .panel-default>.panel-bgActive{
     background:#fff url(../images/top_sanjiao.png) no-repeat 98% center;
+=======
+    padding-left: 2rem;
+}
+.panel-default>.panel-heading {
+    color: #333;
+    background-color: #f5f5f5;
+    border-color: #ddd;
+
+}
+/*默认样式*/
+.panel-default>.panel-bg{
+    background:#f5f5f5 url(../images/top_sanjiao.png) no-repeat 98% center;
+}
+/*点击之后样式*/
+.panel-default>.panel-bgActive{
+    background:#f5f5f5 url(../images/down_sanjiao.png) no-repeat 98% center;
+>>>>>>> b420461952ec74957886b7acce50a3da79f8cb92
 }
 /*列表项选中状态*/
 .panel-bg {
     background:#f5f5f5 url(../images/dangqian_sanjiao.png) no-repeat 98% center;
 }
+<<<<<<< HEAD
 .panel-title > a{
     text-decoration: none;
 }
@@ -357,16 +416,21 @@ input:not([type]), input[type=text], input[type=password], input[type=email], in
 .panel-heading.panel-dg {
     background: #fff url(../images/top_sanjiao.png) no-repeat 98% center;
 }
+=======
+>>>>>>> b420461952ec74957886b7acce50a3da79f8cb92
 .xzxm .search-box{
     margin-bottom: 5px;
 }
 .xzxm .search-boxMg{
     margin-right: 2rem;
 }
+<<<<<<< HEAD
 .xzxm .search-boxMg input{
     position:relative;
     top: 8px;
 }
+=======
+>>>>>>> b420461952ec74957886b7acce50a3da79f8cb92
 /*搜索弹框*/
 .xzxm .search-pop{
     position:absolute;padding-right:0;
@@ -386,10 +450,74 @@ input:not([type]), input[type=text], input[type=password], input[type=email], in
 .tabs.tabs-transparent .indicator {
     background-color: #fd775d;
 }
+<<<<<<< HEAD
 .noUi-handle[data-handle='0']{
     display:none;
 }
 
+=======
+/*进度条-错误率*/
+.progress{
+    height: 10px;
+    line-height: 10px;
+    background: #e6e6e6;
+    box-shadow: none;
+    padding: 6px;
+    margin-top:20px;
+    overflow: visible;
+    border-radius:10px;
+}
+
+.progress .progress-bar{
+    position: relative;
+    border-radius: 10px 10px 10px 10px;
+    animation: animate-positive 2s;
+    background: #fd775d;
+    top: -6px;
+    left: -6px;
+}
+.progress-bar {
+    height: 12px;
+    line-height: 20px;
+}
+.progress .progress-bar span{
+    position: absolute;
+    top: -42px;
+    right: -20px;
+    color: #fff;
+    display: block;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 5px 7px;
+    background: #4c4c4c;
+}
+.progress .progress-bar span:before{
+    position: absolute;
+    bottom: -14px;
+    left: 18px;
+    border: 7px solid transparent;
+    border-top: 7px solid #333;
+}
+.progress .progress-bar span:after{
+    font-family: fontawesome;
+    font-size: 48px;
+    color: #333;
+    position: absolute;
+    top: 51px;
+    right: 6px;
+    transform: rotateZ(48deg);
+}
+@-webkit-keyframes animate-positive {
+    0% { width: 0%;}
+}
+@keyframes animate-positive {
+    0% { width:0%; }
+}
+
+.noUi-handle[data-handle='0']{
+    display:none;
+}
+>>>>>>> b420461952ec74957886b7acce50a3da79f8cb92
 /*弹出框*/
 /*纠错弹出框*/
 .big{

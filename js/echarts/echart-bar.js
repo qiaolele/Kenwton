@@ -76,5 +76,11 @@ myChart.setOption(option);
 //用于使chart自适应高度和宽度
 window.onresize = function () {
   myChart.resize();
+<<<<<<< HEAD
+=======
+  //myChart1.resize();
+  //myChart2.resize();
+  //myChart3.resize();
+>>>>>>> b420461952ec74957886b7acce50a3da79f8cb92
 };
 

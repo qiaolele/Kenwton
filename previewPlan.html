@@ -12,6 +12,7 @@
 <body>
 <!--header头部-->
 <header class="header-box">
+<<<<<<< HEAD
     <nav class="nav-extended">
         <div class="nav-wrapper">
             <a href="#" class="brand-logo">奇异数学</a>
@@ -30,6 +31,27 @@
             </ul>
         </div>
     </nav>
+=======
+    <div class="navbar-fixed">
+        <nav class="nav-extended ">
+            <div class="nav-wrapper row">
+                <a href="#" class="brand-logo brand-qysx">奇异数学</a>
+                <!--非首页显示创建计划-->
+                <a href="#" class="brand-logo brand-cjjh hide">创建计划</a>
+                <ul class="right hide-on-med-and-down">
+                    <li class="nav-home"><a href="xxx.html"><img src="images/home.png" alt=""/></a></li>
+                    <li class="nav-people"><a href="xxx.html"><img src="images/nav_people.png" alt=""/></a></li>
+                </ul>
+                <!--tab让其隐藏-->
+                <ul class="tabs tabs-transparent hide">
+                    <li class="tab"><a href="#test1">时间轴</a></li>
+                    <li class="tab"><a class="active" href="#test2">计划历史</a></li>
+                    <li class="tab"><a href="#test3">单项历史</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+>>>>>>> b420461952ec74957886b7acce50a3da79f8cb92
 </header>
 <section>
     <article>
@@ -113,17 +135,42 @@
 </section>
 
 </body>
+<<<<<<< HEAD
 <script src="js/jquery-2.1.4.min.js"></script>
 <script src="js/bootstrap/js/bootstrap.js"></script>
 <script src="js/materialize/js/materialize.js"></script>
+=======
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/respond.min.js"></script>
+<!--<script src="js/bootstrap/js/bootstrap.js"></script>-->
+<!--<script src="js/materialize/js/materialize.js"></script>-->
+<!--[if lte IE 9]>
+<script src="js/respond.min.js"></script>
+<script src="js/html5.js"></script>
+<![endif]-->
+<script src="http://libs.baidu.com/jquery/1.10.2/jquery.js"></script>
+<script src="js/bootstrap/js/bootstrap.min.js"></script>
+>>>>>>> b420461952ec74957886b7acce50a3da79f8cb92
 <script>
     $(function(){
 
         // 步骤点击效果
         $(".btn-click").click(function(){
+<<<<<<< HEAD
 //      当前样式
             $(this).addClass("btn-clickstyleColor").parent().parent().prev().find('.btn-click').html('√');
             $(this).next('span').addClass("font-active").parent().parent().prev().find('span').removeClass('font-active');
+=======
+//            当前样式
+            $(this).addClass("btn-clickstyleColor")
+            $(this).next('span').addClass("font-active");
+////            选中状态
+//            $(this).html("")
+//            $(this).addClass("waves-effect waves-light btn  btn-click btn-clickstyle");
+////            选中过后文字变灰
+//            $(this).next('span').addClass("font-active");
+//            $(this).parent().parent().siblings().find('span').removeClass("font-active")
+>>>>>>> b420461952ec74957886b7acce50a3da79f8cb92
         })
     })
 </script>
