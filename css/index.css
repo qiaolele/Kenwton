@@ -125,7 +125,10 @@
 .xxjh-btn{
     text-align:right;
     border-bottom:1px solid #ededed;
-    padding:11px  15px 11px 0;
+    padding:11px  20px 11px 0;
+}
+.xxjh .viewReportBtn{
+    margin-left: 15px;
 }
 .xxjh-btn .going{
     color:#999;
@@ -148,7 +151,7 @@
 }
 .pzjh .pzjh-title{
     padding:10px 0 10px 55px;
-    background: url(../images/icon.png) no-repeat 17px -100px;
+    background: url(../images/icon.png) no-repeat 16px -100px;
     font-size:16px;
     color:#333;
 }
@@ -158,6 +161,11 @@
 }
 .pzjh .every-time{
     background: url(../images/icon.png) no-repeat 17px -141px;
+}
+.pzjh .plan-time,
+.pzjh .plan-strength{
+    padding:3px 0 10px 33px;
+    background: url(../images/icon.png) no-repeat -6px -106px;
 }
 .pzjh .chip{
     margin-bottom: 10px;
@@ -218,20 +226,34 @@
     padding:0;
     box-shadow:none;
 }
-.weekTime-box{
+.weekTime-box,
+.planTime-box{
     background:#ebebeb;padding-left: 0;
 }
-.planName-box{
+.planName-box,
+.planStrength-box{
     background: #ebebeb;
     padding-right: 0;
 }
-.weekTime-box .left-box{
+.weekTime-box .left-box,
+.planTime-box .left-box
+{
     padding:25px;margin-left: 0;background: #ffffff;
     box-shadow:0 2px 2px 0 rgba(0,0,0,0.14),0 1px 5px 0 rgba(0,0,0,0.12),0 3px 1px -2px rgba(0,0,0,0.2);
 }
-.planName-box .right-box{
+.planName-box .right-box,
+.planStrength-box .right-box{
     padding:25px;margin-right: 0;background: #ffffff;
     box-shadow:0 2px 2px 0 rgba(0,0,0,0.14),0 1px 5px 0 rgba(0,0,0,0.12),0 3px 1px -2px rgba(0,0,0,0.2);
+}
+.planTime-box .dataTimeBox{
+    padding-top: 8px;
+}
+.planTime-box .zhi{
+    position:relative;
+    left: 1rem;
+    color:#888;
+    top: 5px;
 }
 /*公共下拉框*/
 .dropdown{
@@ -456,7 +478,13 @@ input:not([type]), input[type=text], input[type=password], input[type=email], in
 }
 .wdnl .dropdown-date{
     border: none;
+    text-align:right;
 }
+.wdnl .dropdown-date .caret{
+    margin-left: 15px;
+    margin-top: 8px;
+}
+
 /*排名分析*/
 .myAbility-fontSize{
     font-size:16px;
@@ -681,9 +709,8 @@ input:not([type]), input[type=text], input[type=password], input[type=email], in
     font-size:14px;
 }
 .test .complaints-title{
-    background:#4aacee;
-    margin-top:5px;
-    padding:10px 0;
+    margin: 10px 0 15px 0;
+    padding: 0;
 }
 /*吐槽列表*/
 .test .test-complainListLogo{
@@ -768,13 +795,9 @@ input:not([type]), input[type=text], input[type=password], input[type=email], in
         transform: translate(110%, 0);
     }
 }
-
-.panel-title > a{
-    text-decoration: none;
+.boxShadow{
+    box-shadow:0 2px 2px 0 rgba(0,0,0,0.14),0 1px 5px 0 rgba(0,0,0,0.12),0 3px 1px -2px rgba(0,0,0,0.2);
 }
-.panel-title .panelTitleColor{
-    color:#333;
+.noBoxSadow{
+    box-shadow:none;
 }
-/*.panel-heading .panel-dg {*/
-    /*background: #fff url(../images/top_sanjiao.png) no-repeat 98% center;*/
-/*}*/

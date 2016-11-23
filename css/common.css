@@ -24,6 +24,7 @@ body{
 }
 .container-box{
     padding-top:120px;
+    padding-bottom: 50px;
 }
 /*.containerPaddTop{*/
     /*padding-top: 120px;*/
@@ -76,6 +77,9 @@ body{
     line-height:66px;
     background-color:#ffaf02;
 }
+.comm-littleBtn{
+    background-color:#4aacee;
+}
 .testBtn{
     margin-top: 50px;
 }
@@ -86,6 +90,10 @@ body{
 /*按钮不透明度*/
 .btn-hoverOpa:hover{
     background-color: #ffaf02;
+    opacity: .4;
+}
+.comm-littleBtnHover:hover{
+    background-color:#4aacee;
     opacity: .4;
 }
 /*头部固定*/
@@ -317,7 +325,7 @@ nav .brand-logo {
 
 }
 input:not([type]), input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea.materialize-textarea {
-    padding-left: 2rem;
+    text-align: center;
 }
 .panel-default>.panel-heading {
     color: #777;
@@ -347,7 +355,7 @@ input:not([type]), input[type=text], input[type=password], input[type=email], in
     color:#333;
 }
 .panel-heading.panel-dg {
-    background: #fff url(./images/top_sanjiao.png) no-repeat 98% center;
+    background: #fff url(../images/top_sanjiao.png) no-repeat 98% center;
 }
 .xzxm .search-box{
     margin-bottom: 5px;

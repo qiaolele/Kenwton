@@ -8,11 +8,6 @@
     <link rel="stylesheet" href="css/materialize/css/materialize.css"/>
     <link rel="stylesheet" href="css/index.css"/>
     <link rel="stylesheet" href="css/common.css"/>
-    <style>
-        .panel-heading.panel-dg {
-            background: #fff url(images/top_sanjiao.png) no-repeat 98% center;
-        }
-    </style>
 </head>
 <body>
 <!--header头部-->
@@ -284,6 +279,12 @@
 <script src="js/materialize/js/materialize.js"></script>
 <script>
     $(function(){
+        // 步骤点击效果
+        $(".btn-click").click(function(){
+            $(this).addClass("btn-clickstyleColor").parent().parent().prev().find('.btn-click').html('√');
+            $(this).next('span').addClass("font-active").parent().parent().prev().find('span').removeClass('font-active');
+        })
+//        面板下拉效果
         $('.panel-title a').click(function () {
             var p = $(this).parent().parent()
             if (!(p.next().attr('aria-expanded') === 'true')) {
