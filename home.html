@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>首页</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap/css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/materialize/css/materialize.css"/>
+    <link rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+</head>
+<body>
+<!--header头部-->
+<header class="header-box">
+    <nav class="nav-extended">
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo">奇异数学</a>
+            <!--非首页显示创建计划-->
+            <a href="#" class="brand-logo brand-cjjh hide">创建计划</a>
+            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">奇异数学</i></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li class="nav-home"><a href="sass.html"><img src="images/home.png" alt=""/></a></li>
+                <li class="nav-people"><a href="badges.html"><img src="images/nav_people.png" alt=""/></a></li>
+                <!--<li><a href="collapsible.html">JavaScript</a></li>-->
+            </ul>
+            <ul class="tabs tabs-transparent hide">
+                <li class="tab"><a href="#test1">时间轴</a></li>
+                <li class="tab"><a class="active" href="#test2">计划历史</a></li>
+                <li class="tab"><a href="#test3">单项历史</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+    <section>
+        <article>
+            <div class="container-box">
+                <div class="clearFixed hide"></div>
+                <div class="container container-noStyle">
+                    <div class="row">
+                        <p class="wdxq-title col-md-2">我的学情</p>
+                        <p class="col-md-10 wdxq-title-help">
+                            <i class="plan-btn"></i>
+                        </p>
+                    </div>
+
+                </div>
+                <div class="container wdxq">
+                    <!--情况一：无数据-->
+                     <div class="wdxq-con hide"></div>
+                    <!--情况二：有数据-->
+                    <div class="row wdxq-con1">
+                        <div class="col-md-3 wdxq-con1-item1">
+                            <div class="wdxq-item-text">
+                                <span class="wdxq-qyz">88 <i class="wdxq-qyz-noChange"></i></span>
+                                <p  class="wdxq-qyz-con">当前奇异值</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 wdxq-con1-item2">
+                            <div class="wdxq-item-text">
+                                <span  class="wdxq-dqpm">26%</span>
+                                <p class="wdxq-qyz-con">当前排名</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 wdxq-con1-item3">
+                            <div class="wdxq-item-text">
+                                <div class="wdxq-item-text" id="bar"  style="height: 180px;"></div>
+                                <p class="wdxq-qyz-con">每周动态</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container container-noStyle ps-rela">
+                    <div class="row moreActions-box">
+                        <p class="wdxq-title col-md-2">学习计划</p>
+                        <p class="col-md-8"></p>
+                        <div class="col-md-1 wdxq-title-help dropdown">
+                            <!--<a href="###" class="moreActions">更多操作</a>-->
+                            <!--<i class="plan-btn"></i>-->
+                            <!-- Dropdown Trigger -->
+                            <!--<a class='dropdown-button btn' href='#' data-activates='dropdown1'>更多操作</a>-->
+                            <!--<i class="plan-btn"></i>-->
+                            <!--&lt;!&ndash; Dropdown Structure &ndash;&gt;-->
+                            <!--<ul id='dropdown1' class='dropdown-content'>-->
+                                <!--<li><a href="#!">调整计划</a></li>-->
+                                <!--<li><a href="#!">关闭计划</a></li>-->
+                                <!--<li class="divider"></li>-->
+                                <!--<li><a href="#!">three</a></li>-->
+                            <!--</ul>-->
+
+                            <!--下拉列表框-->
+                        <!--<div class="dropdown col-md-2" >-->
+                            <!-- Dropdown Trigger -->
+                            <a class='dropdown-button btn moreActions ' href='#' data-activates='dropdown1'>更多操作</a>
+                            <!--<span class="moreActions" style=""></span>-->
+                            <!-- Dropdown Structure -->
+                            <ul id='dropdown1' class='dropdown-content'>
+                                <li><a href="#!">调整计划</a></li>
+                                <li><a href="#!">关闭计划</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#!">three</a></li>
+                            </ul>
+                        <!--</div>-->
+
+                        </div>
+                        <p class="col-md-1" style="text-align:right;padding-right:0;">
+                            <i class="plan-btn"></i>
+                        </p>
+                    </div>
+                    <!--<div class="moreActions-con">-->
+                        <!--<p class="con1 con1-Active">调整计划</p>-->
+                        <!--<p class="con1">关闭计划</p>-->
+                    <!--</div>-->
+                </div>
+                <div class="container xxjh">
+                    <div class="row ">
+                        <a class="waves-effect waves-light btn btn-lg btn-block comm-largeBtn btn-bgColor">创建计划</a>
+                    </div>
+                    <!--有数据状态二-->
+                    <div class="row con-bg">
+                        <div class="xxjh-btn comm-btn">
+                            <span class="going">正在进行中……</span>
+                            <a class="waves-effect waves-light btn">开始训练</a>
+                            <a class="waves-effect waves-light btn">查看报告</a>
+                        </div>
+                        <div class="row xxjh-progress">
+                            <div class="col-md-4">
+                                <!--训练进行-->
+                                <!--<p class="xxjh-con">训练进行</p>-->
+                                <div id="main"  style="height:170px;"></div>
+                                <p class="xxjh-con">今日有训练</p>
+                                <!-- 计划完成状态 -->
+                                <!--<img src="images/plan_finish.png" alt=""/>-->
+                                <!--<p class="xxjh-con">计划完成</p>-->
+                                <!-- 计划关闭状态 -->
+                                <!--<img src="images/plan_close.png" alt=""/>-->
+                                <!--<p class="xxjh-con">计划关闭</p>-->
+                                <!--计划到期状态-->
+                                <!--<img src="images/plan_stop.png" alt=""/>-->
+                                <!--<p class="xxjh-con">计划关闭</p>-->
+                                <!-- 训练完成状态 -->
+                                <!--<img src="images/excirse_finish.png" alt=""/>-->
+                                <!--<p class="xxjh-con">训练完成</p>-->
+                                <!-- 训练未完成状态 -->
+                                 <!--<img src="images/excirse_unfinish.png" alt=""/>-->
+                                <!--<p class="xxjh-con">训练未完成 <span>（剩余 <a href="###">1</a>小时）</span> </p>-->
+                                <!-- 今日休息状态 -->
+                                <!-- <img src="images/excirse_finish.png" alt=""/>
+                                <p class="xxjh-con">今日休息</p>-->
+
+                            </div>
+                            <div class="col-md-4">
+                                <!--<img src="images/circle.png" alt=""/>-->
+                                <div id="main1"  style="height:170px;"></div>
+                                <p class="xxjh-con">计划完成</p>
+                            </div>
+                            <div class="col-md-4">
+                                <!--<img src="images/circle.png" alt=""/>-->
+                                <div id="main2"  style="height:170px;"></div>
+                                <p class="xxjh-con">奇异值</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container container-noStyle">
+                    <div class="row">
+                        <p class="wdxq-title col-md-2">单项训练</p>
+                        <p class="col-md-10 wdxq-title-help">
+                            <i class="plan-btn"></i>
+                        </p>
+                    </div>
+                </div>
+                <div class="container dxlx">
+                    <div class="row">
+                        <a class="waves-effect waves-light btn btn-lg btn-block comm-largeBtn btn-hoverOpa ">创建单项练习</a>
+                    </div>
+                    <!--单项练习表格-->
+                    <div class="table-exercise row con_bg">
+                        <table class="table table-hover table-responsive">
+                            <thead >
+                                <th class="col-md-6 tableTextLeft">单项</th>
+                                <th class="col-md-2 ">状态</th>
+                                <th class="col-md-2">时间</th>
+                                <th class="col-md-2 text-alignCenter comm-btn"><a class="waves-effect waves-light btn ">创建单项</a></th>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="tableTextLeft">三角函数sin()</td>
+                                    <td class=" state_finish"><i></i><span>完成</span></td>
+                                    <td class=" time">2016/10/25 09:00</td>
+                                    <td class="text-alignCenter">
+                                        <a href="###">查看报告</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="tableTextLeft">三角函数sin()</td>
+                                    <td class="state_going"><i></i><span>进行中</span></td>
+                                    <td class="time">2016/10/25 09:00</td>
+                                    <td class="text-alignCenter">
+                                        <a href="###" class="btn-going">继续</a>
+                                        <a href="###" class="btn-close">关闭</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="tableTextLeft">三角函数sin()</td>
+                                    <td class="state_close"><i></i><span>关闭</span></td>
+                                    <td class="time">2016/10/25 09:00</td>
+                                    <td class="text-alignCenter"><a href="###" class="btn-close-look">查看报告</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+    <!--悬浮按钮结构-->
+    <div class="fixed-action-btn click-to-toggle">
+        <a class="btn-floating btn-large waves-effect waves-light blue" id="btn">
+            <i class="material-icons">menu</i>
+        </a>
+        <ul>
+            <li>
+                <!--<a class="btn-floating red red1"><i class="material-icons">insert_chart</i></a>-->
+                <!--<span class="tab_info hide">-->
+                    <!--创建单项练习-->
+                <!--</span>-->
+                <a class="btn btn-floating red tooltipped" data-position="left" data-delay="50" data-tooltip="学习轨迹">Hover me!</a>
+            </li>
+            <li><a class="btn btn-floating green tooltipped" data-position="left" data-delay="50" data-tooltip="学习分析">Hover me!</a></li>
+            <li><a class="btn btn-floating yellow tooltipped" data-position="left" data-delay="50" data-tooltip="创建单项练习">Hover me!</a></li>
+            <!--<li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>-->
+        </ul>
+    </div>
+</body>
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/bootstrap/js/bootstrap.js"></script>
+<script src="js/materialize/js/materialize.js"></script>
+<script src="js/echarts/echarts-all.js"></script>
+<script src="js/echarts/echarts-pie.js"></script>
+<script src="js/echarts/echart-bar.js"></script>
+
+<script>
+    $(function(){
+//        旋转效果
+        var btn = document.querySelector('#btn')
+        btn.addEventListener('click', function () {
+            btn.setAttribute('class' , 'btn rotate btn-floating btn-large red')
+            setTimeout(function () {
+                btn.setAttribute('class', 'btn-floating btn-large red')
+            }, 1000)
+        })
+
+//        更多操作效果
+        var state = true;
+        $(".moreActions").click(function(){
+            if( state == true ){
+                $(".moreActions-con").show();
+                state = false;
+            }else{
+                $(".moreActions-con").hide();
+                state = true;
+            }
+        })
+        $(".moreActions-con .con1").click(function(){
+            $(this).addClass("con1-Active");
+            $(this).siblings().removeClass("con1-Active")
+        })
+    })
+
+</script>
+</html>

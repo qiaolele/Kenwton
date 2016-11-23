@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>学习中</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap/css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/materialize/css/materialize.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="css/common.css"/>
+</head>
+<body>
+<!--header头部-->
+<header class="header-box">
+    <nav class="nav-extended">
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo">奇异数学</a>
+            <!--非首页显示创建计划-->
+            <a href="#" class="brand-logo brand-cjjh hide">创建计划</a>
+            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">奇异数学</i></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li class="nav-home"><a href="sass.html"><img src="images/home.png" alt=""/></a></li>
+                <li class="nav-people"><a href="badges.html"><img src="images/nav_people.png" alt=""/></a></li>
+                <!--<li><a href="collapsible.html">JavaScript</a></li>-->
+            </ul>
+            <ul class="tabs tabs-transparent hide">
+                <li class="tab"><a href="#test1">时间轴</a></li>
+                <li class="tab"><a class="active" href="#test2">计划历史</a></li>
+                <li class="tab"><a href="#test3">单项历史</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<section>
+    <article>
+        <div class="container-box">
+            <div class="clearFixed hide"></div>
+            <div class="container container-noStyle test">
+                <div class="row">
+                    <div class="col-md-8 test-leftBox">
+                        <div  class="test-leftBoxCon">
+                            <div class="test-questions">
+                                1、把曲线ycosx+2y－1=0先沿x轴向右平移___个单位，再沿y轴向下平移，得到的曲线程是?
+                            </div>
+                            <div class="test-quesOption">
+                                <p class="test-option test-optionA">
+                                    <span class="test-circle ">A</span>
+                                    向左平移  6个长度单位
+                                    <img src="images/true.png" >
+                                    <span class="mask"></span> 
+                                </p>
+                                <p class="test-option test-optionB test-quesOptionSelect">
+                                    <span class="test-circle">B</span>
+                                    向左平移  6个长度单位
+                                    <img src="images/true.png" >
+                                    <span class="mask test-quesOptionSelect"></span>
+                                </p>
+                                <p class="test-option test-optionC test-quesOptionTrue">
+                                    <span class="test-circle test-circleTrue ">C</span>
+                                    向左平移  6个长度单位 
+                                    <img src="images/true.png" >
+                                    <span class="mask "></span> 
+                                </p>
+                                <p class="test-option test-optionD">
+                                    <span class="test-circle test-circleFalse">D</span>
+                                    向左平移  6个长度单位
+                                    <img src="images/true.png">
+                                    <span class="mask"></span>
+                                </p>
+                            </div>
+                        </div>
+                        <a class="waves-effect waves-light btn btn-large  btn-block comm-largeBtn  btn-bgColor  testBtn">确定</a>
+                    </div>
+                    <div class="col-md-4 test-rightBox">
+                        <div class="test-rightBoxCon">
+                            <div class="">
+                                <p class="test-title">训练用时</p>
+                                <div class="test-time">00:00</div>
+                            </div>
+                            <div class="test-makeInfo ">
+                                <p class="test-title">掌握情况</p>
+                                <div id="biao" class="row" style="height:200px;">仪表盘</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+</section>
+</body>
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/bootstrap/js/bootstrap.js"></script>
+<script src="js/materialize/js/materialize.js"></script>
+<script src="js/echarts/echarts-all.js"></script>
+<script src="js/echarts/biao.js"></script>
+<script>
+    $(function(){
+        $("p.test-quesOptionTrue").find('.mask').addClass('fly')
+    })
+</script>
+
+</html>

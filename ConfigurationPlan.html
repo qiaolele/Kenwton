@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>配置计划</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap/css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/materialize/css/materialize.css"/>
+    <link rel="stylesheet" href="css/noUiSlider/nouislider.css">
+    <link rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+</head>
+<body>
+<!--header头部-->
+<header class="header-box">
+    <nav class="nav-extended">
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo">奇异数学</a>
+            <!--非首页显示创建计划-->
+            <a href="#" class="brand-logo brand-cjjh hide">创建计划</a>
+            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">奇异数学</i></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li class="nav-home"><a href="sass.html"><img src="images/home.png" alt=""/></a></li>
+                <li class="nav-people"><a href="badges.html"><img src="images/nav_people.png" alt=""/></a></li>
+                <!--<li><a href="collapsible.html">JavaScript</a></li>-->
+            </ul>
+            <ul class="tabs tabs-transparent hide">
+                <li class="tab"><a href="#test1">时间轴</a></li>
+                <li class="tab"><a class="active" href="#test2">计划历史</a></li>
+                <li class="tab"><a href="#test3">单项历史</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<section>
+    <article>
+        <div class="container-box">
+            <div class="clearFixed hide"></div>
+            <!--步骤插件-->
+            <div class="container">
+                <div class="step-box row">
+                    <div class="col-md-5 step-one">
+                        <div class="step-btn col-md-3">
+                            <a class="waves-effect waves-light btn  btn-click">1</a>
+                            <span>选择项目</span>
+                        </div>
+                        <div class="step-line col-md-9">
+
+                        </div>
+                    </div>
+                    <div class="col-md-5 step-two">
+                        <div class="step-btn col-md-3">
+                            <a class="waves-effect waves-light btn btn-click">2</a>
+                            <span>配置计划</span>
+                        </div>
+                        <div class="step-line col-md-9">
+
+                        </div>
+                    </div>
+                    <div class="col-md-2 step-three">
+                        <div class="step-btn col-md-12">
+                            <a class="waves-effect waves-light btn btn-click">3</a>
+                            <span>预览计划</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container pzjh">
+                <p class="pzjh-title select-target">已选目标</p>
+                <div class="row con_bg clear sele_con">
+                    <div class="col-md-12">
+                        <div class="chip">直线、平面平行的判定及其性质</div>
+                        <div class="chip">直线、平面平行的判定及其性质</div>
+                        <div class="chip">充分条件与必德辅道要条件</div>
+                        <div class="chip">必要条件与充分条件定义</div>
+                        <div class="chip">必要条件与定义</div>
+                        <div class="chip">直线、平面平行的判定短发及其性质</div>
+                        <div class="chip">直线、平面平行的判定及其daerw性质</div>
+                        <div class="chip">直线、平面平行的判定及其性质</div>
+                        <div class="chip">必要条件与充分条件德辅道定义</div>
+                        <div class="chip">直线、平 短发面平行的判定及其性质</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container pzjh">
+                <p class="pzjh-title every-time">每次时长
+                    <span class="pzjh-title-info">(分钟)</span></p>
+                <div class="row clear progress-box">
+                    <div class="col-md-12">
+                        <div id="range-input" class="">
+                            <div class="noUi-origin noUi-connect">
+                                <span class="range-label"></span>
+                            </div>
+                        </div>
+                        <!--<form action="#">-->
+                            <!--<p class="range-field">-->
+                                <!--<input type="range" id="test5" min="0" max="100" />-->
+                            <!--</p>-->
+                        <!--</form>-->
+
+                        <div class="progress-text">
+                            平均
+                            <span class="progress-line"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container pzjh ">
+                <div class="row strength">
+                    <div class="col-md-6">
+                        <div class="left-box row">
+                            <p class="pzjh-title plan-time ">计划持续时长
+                                <span class="fr pzjh-title-info">（计划最少7天）</span></p>
+                                <div class="col-md-5">
+                                    <input type="date" class="datepicker" placeholder="开始时间"/>
+                                </div>
+                                <div class="col-md-1"></div>
+                                <div class="col-md-5">
+                                    <input type="date" class="datepicker" placeholder="结束时间"/>
+                                </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-6 ">
+                        <div class="right-box">
+                            <p class="pzjh-title plan-strength">计划强度</p>
+                            <!--下拉列表框-->
+                            <div class="dropdown">
+                                <!-- Dropdown Trigger -->
+                                <a class='dropdown-button btn' href='#' data-activates='dropdown1'>大纲</a>
+                                <span class="caret"></span>
+                                <!-- Dropdown Structure -->
+                                <ul id='dropdown1' class='dropdown-content'>
+                                    <li><a href="#!">大纲</a></li>
+                                    <li><a href="#!">EJB</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="#!">three</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           <div class="strength container ps-marBot pzjh pzjh-box">
+               <div class="col-md-6 weekTime-box">
+                   <div class="left-box">
+                       <p  class="pzjh-title week-times">每周次数</p>
+                       <!--下拉列表框-->
+                       <div class="dropdown">
+                           <!-- Dropdown Trigger -->
+                           <a class='dropdown-button btn' href='#' data-activates='dropdown2'>大纲</a>
+                           <span class="caret"></span>
+                           <!-- Dropdown Structure -->
+                           <ul id='dropdown2' class='dropdown-content'>
+                               <li><a href="#!">大纲</a></li>
+                               <li><a href="#!">EJB</a></li>
+                               <li class="divider"></li>
+                               <li><a href="#!">three</a></li>
+                           </ul>
+                       </div>
+                   </div>
+               </div>
+               <div class="col-md-6 planName-box">
+                   <div class="right-box">
+                       <p class="pzjh-title plan-name">计划名称</p>
+                       <!--下拉列表框-->
+                       <div class="dropdown">
+                           <!-- Dropdown Trigger -->
+                           <a class='dropdown-button btn' href='#' data-activates='dropdown3'>大纲</a>
+                           <span class="caret"></span>
+                           <!-- Dropdown Structure -->
+                           <ul id='dropdown3' class='dropdown-content'>
+                               <li><a href="#!">大纲</a></li>
+                               <li><a href="#!">EJB</a></li>
+                               <li class="divider"></li>
+                               <li><a href="#!">three</a></li>
+                           </ul>
+                       </div>
+                   </div>
+               </div>
+           </div>
+
+            <div class="container ps-fix">
+                <div class="row"  >
+                    <a class="waves-effect waves-light btn btn-lg btn-block comm-largeBtn btn-bgColor ">预览计划</a>
+                    <!--<button class="btn btn-primary  btn-lg btn-block comm-largeBtn btn-bgColor" type="button">预览计划</button>-->
+                    <!--<button type="button" class="btn btn-primary btn-lg btn-block comm-largeBtn btn-bgColor">预览计划</button>-->
+                </div>
+            </div>
+        </div>
+
+    </article>
+</section>
+
+</body>
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/pickadate.js"></script>
+<script src="js/bootstrap/js/bootstrap.js"></script>
+<script src="js/materialize/js/materialize.js"></script>
+<script src="js/noUiSlider/nouislider.js"></script>
+<script>
+    $(function(){
+        // 步骤点击效果
+        $(".btn-click").click(function(){
+            $(this).addClass("btn-clickstyleColor").parent().parent().prev().find('.btn-click').html('√');
+            $(this).next('span').addClass("font-active").parent().parent().prev().find('span').removeClass('font-active');
+        })
+        $('.datepicker').pickadate({
+            selectMonths: true, // Creates a dropdown to control month
+            selectYears: 15 // Creates a dropdown of 15 years to control year
+        });
+        //    进度条
+        var slider = document.getElementById('range-input');
+        noUiSlider.create(slider, {
+            start: [0,80],
+            connect: true,
+            step: 1,
+            values: [10, 100 ],
+            tooltips: true,
+            range: {
+                'min': 0,
+                'max': 100
+            }
+        });
+    })
+</script>
+</html>

@@ -1,0 +1,441 @@
+body{
+    background: #ebebeb;
+}
+.fl{
+    float:left;
+}
+.fr{
+    float:right;
+}
+.clear{
+    clear:both;
+}
+.commPaddLeft{
+    padding-left: 0;
+}
+.commPaddRight{
+    padding-right: 0;
+}
+.hide{
+    display:none;
+}
+.clearFixed{
+    padding-top: 50px;
+}
+.container-box{
+    padding-top:120px;
+}
+/*.containerPaddTop{*/
+    /*padding-top: 120px;*/
+/*}*/
+.container{
+    padding-left:0;
+    padding-right:0;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),0 1px 5px 0 rgba(0,0,0,0.12),0 3px 1px -2px rgba(0,0,0,0.2);
+}
+.container-noStyle{
+    box-shadow:none;
+    margin-bottom:0px;
+    /*padding-left:20px;*/
+}
+.container .row{
+    margin-left:0;
+    margin-right:0;
+    margin-bottom: 0;
+}
+.ps-rela{
+    position:relative;
+}
+
+/*固定按钮样式*/
+.ps-fix{
+    position: fixed;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%,0);
+    background:#fff;
+    z-index:111;
+    bottom:0;
+    margin-bottom: 0;
+}
+.ps-marBot{
+    margin-bottom: 100px;
+}
+/*公共小按钮样式*/
+.comm-btn .btn,
+.comm-btn .btn-large, 
+.comm-btn .btn-flat {
+  padding: 0 1rem;
+  
+}
+/*大button样式*/
+.comm-largeBtn{
+    font-size:24px;
+    height:66px;
+    line-height:66px;
+    background-color:#ffaf02;
+}
+.testBtn{
+    margin-top: 50px;
+}
+/*按钮颜色*/
+.btn-bgColor{
+    background-color: #e9732c;
+}
+/*按钮不透明度*/
+.btn-hoverOpa:hover{
+    background-color: #ffaf02;
+    opacity: .4;
+}
+/*头部固定*/
+.header-box{
+    position:fixed;
+    top:0;
+    width:100%;
+    margin-bottom:100px;
+    z-index:9999;
+}
+nav.nav-extended{
+    clear:both;overflow:hidden;
+}
+nav{
+    background: #4aacee;
+}
+nav .nav-wrapper{
+    padding:0 20px;
+    margin-bottom: 0;
+}
+nav .nav-home{
+    width:74px;
+    text-align: center;
+    margin-right: 10px;
+}
+nav .brand-logo {
+    font-size: 1.25rem;
+    text-decoration: none;
+}
+
+/*表格样式——单项练习*/
+.con-bg{
+    background: #ffffff;
+    padding:0 15px;
+    /*padding:0 20px;*/
+}
+.table-exercise{
+    background: #ffffff;
+}
+/*.table-exercise .btn,.table-exercise .btn-large {
+    background: #ff9464;
+}*/
+.wdnl td a{
+    text-align: center;
+}
+.table-exercise td,
+.table-exercise th{
+    text-align: center;
+    font-size:14px;
+    color:#444;
+}
+
+.table > thead > tr > th {
+    line-height: 43px;
+}
+.table>thead>tr>th {
+    font-size: 16px;
+    color: #999;
+}
+.table > thead > tr > th.tableTextLeft{
+    text-align:left;
+    padding-left:2rem;
+}
+.table-exercise .tableTextLeft{
+    text-align: left;
+    padding-left: 2rem;
+}
+.table-exercise span{
+    display: inline-block;
+    text-align: left;
+    width: 50px;
+    margin-left: 10px;
+}
+.table-exercise .state_finish i,
+.table-exercise .state_going i,
+.table-exercise .state_close i
+{
+    display:inline-block;
+    background: url(../images/icon.png) no-repeat 0 0;
+    width:11px;
+    height:11px;
+}
+.table-exercise .state_going i{
+    background: url(../images/going.gif) no-repeat 1px 5px;
+    width: 20px;
+}
+.table-exercise .state_close i{
+    background: url(../images/icon.png) no-repeat -151px -10px;
+}
+.table-exercise .btn-going,
+.table-exercise .btn-close{
+    text-decoration: none;
+    display:inline-block;
+}
+/*4种按钮状态*/
+
+.table-exercise .btn-look{
+    color:#4aacee;
+}
+.table-exercise .btn-going{
+    color:#fd9a5d;
+    margin-right:8px;
+}
+.table-exercise .btn-close{
+    color:#aeaeae;
+    margin-left:8px;
+}
+.table-exercise .btn-close-look{
+    color:#fd775d;
+}
+.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
+    line-height: 38px;
+    padding:6px;
+}
+/*评价三种状态*/
+.wdnl .qyz-style-jt{
+    background: #ff9464;
+    text-decoration: none;
+}
+.wdnl .qyz-style-sl{
+    background: #ffb898;
+    text-decoration: none;
+}
+.wdnl .qyz-style-pt{
+    background: #dedede;
+    text-decoration: none;
+}
+/*我的能力*/
+.pmfx-time{
+    text-align: center;
+}
+.text-alignRight{
+    text-align: right;
+}
+.text-alignCenter{
+    text-align: center;
+}
+/*排名分析*/
+.pmfx a{
+    color:#fd9a5d;
+    text-decoration: none;
+}
+/*分页样式*/
+.pagination-box{
+    text-align: right;
+}
+/*悬浮按钮样式*/
+/*旋转*/
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.rotate{
+    animation: rotate 1s ease 1;
+}
+.fixed-action-btn {
+    position: fixed;
+    right: 7%;
+    bottom: 0%;
+}
+/*步骤样式*/
+.step-box{
+    background: #fff;
+    padding:20px 50px 20px 85px;
+}
+.step-box .step-btn span{
+    display:inline-block;
+    margin-top:10px;
+    color:#777;
+}
+.step-box .step-two{
+    text-align: center;
+}
+.step-box .step-three{
+    text-align: right;
+}
+.step-box .step-three .step-btn{
+    padding-right: 25%;
+}
+.step-box .step-btn{
+    text-align: center;
+}
+/*当前状态*/
+.step-box .step-btn .btn-clickstyleColor{
+    background: #84cafb;
+}
+/*选中状态*/
+.step-box .step-btn .btn-clickstyle{
+    /*background: #84cafb url(../images/btn_click.png) no-repeat center center;*/
+    background: #84cafb url(../images/icon.png) no-repeat -52px 4px;
+}
+.step-box .col-md-5,
+.step-box .col-md-2,
+.step-box .col-md-12,
+.step-box .col-md-3,
+.step-box .col-md-9
+{
+    padding-left:0;
+    padding-right:0;
+}
+.step-btn .btn,.step-btn .btn-large,.step-btn .btn-flat {
+    height: 36px;
+    line-height: 8px;
+    padding: 1rem;
+    border-radius:50%;
+    width: 38px;
+    background: #e1e1e1;
+    display:block;
+    margin:0 auto;
+}
+.step-line{
+    display: inline-block;
+    background: url(../images/icon.png) no-repeat 0px -94px;
+    height: 1px;
+    position: relative;
+    top: 20px;
+}
+.step-box .step-btn .font-active{
+    color:#84cafb;
+}
+/*搜索图标*/
+.validate{
+    background:url(../images/search_btn.png) no-repeat left center;
+    /*backgound:url(images/search_btn) no-repeat center left;*/
+
+}
+input:not([type]), input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea.materialize-textarea {
+    padding-left: 2rem;
+}
+.panel-default>.panel-heading {
+    color: #777;
+    background-color: #fff;
+    /*border-color: #ddd;*/
+    background:#fff url(../images/down_sanjiao.png) no-repeat 98% center;
+}
+/*默认样式*/
+.panel-default>.panel-bg{
+    background:#fff url(../images/down_sanjiao.png) no-repeat 98% center;
+}
+/*点击之后样式*/
+.panel-default >.panel-bgActive1{
+    background:#fff url(../images/top_sanjiao.png) no-repeat 98% center;
+}
+.panel-default>.panel-bgActive{
+    background:#fff url(../images/top_sanjiao.png) no-repeat 98% center;
+}
+/*列表项选中状态*/
+.panel-bg {
+    background:#f5f5f5 url(../images/dangqian_sanjiao.png) no-repeat 98% center;
+}
+.panel-title > a{
+    text-decoration: none;
+}
+.panel-title .panelTitleColor{
+    color:#333;
+}
+.panel-heading.panel-dg {
+    background: #fff url(./images/top_sanjiao.png) no-repeat 98% center;
+}
+.xzxm .search-box{
+    margin-bottom: 5px;
+}
+.xzxm .search-boxMg{
+    margin-right: 2rem;
+}
+.xzxm .search-boxMg input{
+    position:relative;
+    top: 8px;
+}
+/*搜索弹框*/
+.xzxm .search-pop{
+    position:absolute;padding-right:0;
+}
+.xzxm .search-pop ul{
+    background:#fafafa;padding-top:10px;padding-bottom:10px;padding-right:0;
+}
+.xzxm .search-pop ul li{
+    padding:10px;color:#333;font-size:14px;
+}
+.xzxm .search-pop ul .liSelect{
+    background:#eee;
+}
+.xzxm .foldingPanel{
+    padding:0 15px;
+}
+.tabs.tabs-transparent .indicator {
+    background-color: #fd775d;
+}
+.noUi-handle[data-handle='0']{
+    display:none;
+}
+
+/*弹出框*/
+/*纠错弹出框*/
+.big{
+    position:fixed;
+    top:0;
+    width:100%;
+    height:100%;
+    background:#000;
+    z-index:999;
+    opacity:0.4;
+}
+.errorCorrection{
+    position:fixed;
+    left:50%;top:50%;
+    transform:translate(-50%,-50%);
+    background:#fff;
+    z-index:1999;
+    padding:20px 30px;
+}
+.errorCorrInfo{
+    font-size:20px;color:#333;
+}
+.popbox .errorCon{
+    color:#666;
+    padding:5px 10px;
+    margin:15px 0 30px;
+}
+.popbox .errorCon .errMinu{
+    color:#fd9a5d;
+}
+.popbox .dropdown{
+    border:1px solid #cccccc;
+    border-radius:5px;
+
+}
+.popbox .dropdown .dropdown-toggle{
+    color:#888;font-size:16px;
+    display:block;
+}
+.popbox .dropdown .caret{
+    float: right;
+    margin-top: 10px;
+}
+.errorCorreBtn{
+    text-align: right;
+}
+.errorCorreBtn .btnStyle{
+    text-align: right;
+    color:#4aacee;
+    font-size:16px;
+    text-decoration:none;
+}
+.errorCorreBtn .btnGoing,
+.errorCorreBtn .notLearn,
+.errorCorreBtn .cancle{
+    margin-right: 1rem;
+}

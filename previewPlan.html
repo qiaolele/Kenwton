@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>预览计划</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap/css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/materialize/css/materialize.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="css/common.css"/>
+</head>
+<body>
+<!--header头部-->
+<header class="header-box">
+    <nav class="nav-extended">
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo">奇异数学</a>
+            <!--非首页显示创建计划-->
+            <a href="#" class="brand-logo brand-cjjh hide">学习中</a>
+            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">奇异数学</i></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li class="nav-home"><a href="sass.html"><img src="images/home.png" alt=""/></a></li>
+                <li class="nav-people"><a href="badges.html"><img src="images/nav_people.png" alt=""/></a></li>
+                <!--<li><a href="collapsible.html">JavaScript</a></li>-->
+            </ul>
+            <ul class="tabs tabs-transparent hide">
+                <li class="tab"><a href="#test1">时间轴</a></li>
+                <li class="tab"><a class="active" href="#test2">计划历史</a></li>
+                <li class="tab"><a href="#test3">单项历史</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<section>
+    <article>
+        <div class="container-box">
+            <!--步骤插件-->
+            <div class="container">
+                <div class="step-box row">
+                    <div class="col-md-5 step-one">
+                        <div class="step-btn col-md-3">
+                            <a class="waves-effect waves-light btn  btn-click">1</a>
+                            <span>选择项目</span>
+                        </div>
+                        <div class="step-line col-md-9">
+
+                        </div>
+                    </div>
+                    <div class="col-md-5 step-two">
+                        <div class="step-btn col-md-3">
+                            <a class="waves-effect waves-light btn btn-click">2</a>
+                            <span>配置计划</span>
+                        </div>
+                        <div class="step-line col-md-9">
+
+                        </div>
+                    </div>
+                    <div class="col-md-2 step-three">
+                        <div class="step-btn col-md-12">
+                            <a class="waves-effect waves-light btn btn-click">3</a>
+                            <span>预览计划</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container yljh">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="yljh-img">
+                            <img src="images/already_target.png" alt=""/>
+                        </div>
+                        <a class="yljh-con" href="###">6</a>
+                        <p>已选目标</p>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="yljh-img">
+                            <img src="images/plan_time1.png" alt=""/>
+                        </div>
+                        <a class="yljh-con" href="###">30天</a>
+                        <p>计划时长</p>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="yljh-img">
+                            <img src="images/every_time1.png" alt=""/>
+                        </div>
+                        <a class="yljh-con" href="###">20分钟</a>
+                        <p>每次时长</p>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="yljh-img">
+                            <img src="images/plan_strength1.png" alt=""/>
+                        </div>
+                        <a class="yljh-con" href="###">折磨</a>
+                        <p>计划强度</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container yljh ps-marBot">
+                <div class="row yljh-date" style="height:450px;padding:20px 50px;">
+                    日历插件
+                </div>
+            </div>
+
+            <div class="container ps-fix">
+                <div class="row"  >
+                    <button class="btn btn-primary  btn-lg btn-block comm-largeBtn btn-bgColor" type="button">开始训练</button>
+                </div>
+            </div>
+        </div>
+
+    </article>
+</section>
+
+</body>
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/bootstrap/js/bootstrap.js"></script>
+<script src="js/materialize/js/materialize.js"></script>
+<script>
+    $(function(){
+
+        // 步骤点击效果
+        $(".btn-click").click(function(){
+//      当前样式
+            $(this).addClass("btn-clickstyleColor").parent().parent().prev().find('.btn-click').html('√');
+            $(this).next('span').addClass("font-active").parent().parent().prev().find('span').removeClass('font-active');
+        })
+    })
+</script>
+</html>

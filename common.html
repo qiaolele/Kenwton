@@ -1,0 +1,346 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>公共结构</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/materialize/css/materialize.min.css"/>
+    <link rel="stylesheet" href="css/common.css"/>
+</head>
+<body>
+<!--header头部-->
+<header class="header-box">
+    <nav class="nav-extended">
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo">奇异数学</a>
+            <!--非首页显示创建计划-->
+            <a href="#" class="brand-logo brand-cjjh hide">创建计划</a>
+            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">奇异数学</i></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li class="nav-home"><a href="sass.html"><img src="images/home.png" alt=""/></a></li>
+                <li class="nav-people"><a href="badges.html"><img src="images/nav_people.png" alt=""/></a></li>
+                <!--<li><a href="collapsible.html">JavaScript</a></li>-->
+            </ul>
+            <ul class="tabs tabs-transparent hide">
+                <li class="tab"><a href="#test1">时间轴</a></li>
+                <li class="tab"><a class="active" href="#test2">计划历史</a></li>
+                <li class="tab"><a href="#test3">单项历史</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<section>
+    <article>
+        <!--单项练习表格-->
+        <div class="container table-exercise row con_bg">
+            <table class="table table-hover table-responsive">
+                <thead >
+                <th class="col-md-6 tableTextLeft">单项</th>
+                <th class="col-md-2 ">状态</th>
+                <th class="col-md-2">时间</th>
+                <th class="col-md-2 text-alignCenter comm-btn"><a class="waves-effect waves-light btn ">创建单项</a></th>
+                </thead>
+                <tbody>
+                <tr>
+                    <td class="tableTextLeft">三角函数sin()</td>
+                    <td class=" state_finish"><i></i><span>完成</span></td>
+                    <td class=" time">2016/10/25 09:00</td>
+                    <td class="text-alignCenter">
+                        <a href="###">查看报告</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="tableTextLeft">三角函数sin()</td>
+                    <td class="state_going"><i></i><span>进行中</span></td>
+                    <td class="time">2016/10/25 09:00</td>
+                    <td class="text-alignCenter">
+                        <a href="###" class="btn-going">继续</a>
+                        <a href="###" class="btn-close">关闭</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="tableTextLeft">三角函数sin()</td>
+                    <td class="state_close"><i></i><span>关闭</span></td>
+                    <td class="time">2016/10/25 09:00</td>
+                    <td class="text-alignCenter"><a href="###" class="btn-close-look">查看报告</a></td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        <!--计划历史表格-->
+        <div class="container jhls">
+            <div class="table-exercise row con_bg">
+                <table class="table table-hover table-responsive">
+                    <thead >
+                    <th class="col-md-5 tableTextLeft">计划</th>
+                    <th class="col-md-2">状态</th>
+                    <th class="col-md-3">时间</th>
+                    <th class="col-md-2"></th>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td class="tableTextLeft">三角函数sin()</td>
+                        <td class=" state_finish"><i></i><span>完成</span></td>
+                        <td class=" time">2016/10/25 09:00</td>
+                        <td ><a href="###">查看报告</a></td>
+                    </tr>
+                    <tr>
+                        <td class="tableTextLeft">三角函数sin()</td>
+                        <td class="state_going"><i></i><span>进行中</span></td>
+                        <td class="time">2016/10/25 09:00</td>
+                        <td>
+                            <a href="###" class="btn-going">继续</a>
+                            <a href="###" class="btn-close">关闭</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tableTextLeft">三角函数sin()</td>
+                        <td class="state_close"><i></i><span>关闭</span></td>
+                        <td class="time">2016/10/25 09:00</td>
+                        <td><a href="###" class="btn-close-look">查看报告</a></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <!--单项历史表格-->
+        <div class="container dxls">
+            <div class="table-exercise row con_bg">
+                <table class="table table-hover table-responsive">
+                    <thead >
+                    <th class="col-md-5 tableTextLeft">单项</th>
+                    <th class="col-md-2">状态</th>
+                    <th class="col-md-3">时间</th>
+                    <th class="col-md-2"></th>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td class="tableTextLeft" >三角函数sin()</td>
+                        <td class=" state_finish"><i></i><span>完成</span></td>
+                        <td class=" time">2016/10/25 09:00</td>
+                        <td ><a href="###">查看报告</a></td>
+                    </tr>
+                    <tr>
+                        <td class="tableTextLeft">三角函数sin()</td>
+                        <td class="state_going"><i></i><span>进行中</span></td>
+                        <td class="time">2016/10/25 09:00</td>
+                        <td>
+                            <a href="###" class="btn-going">继续</a>
+                            <a href="###" class="btn-close">关闭</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tableTextLeft">三角函数sin()</td>
+                        <td class="state_close"><i></i><span>关闭</span></td>
+                        <td class="time">2016/10/25 09:00</td>
+                        <td><a href="###" class="btn-close-look">查看报告</a></td>
+                    </tr>
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+
+        <!--我的能力表格-->
+        <div class="wdnl container">
+            <div class="table-exercise row con_bg">
+                <table class="table table-hover table-responsive">
+                    <thead >
+                    <th class="col-md-3 tableTextLeft">知识点</th>
+                    <th class="col-md-3">奇异评价</th>
+                    <th class="col-md-3">用时</th>
+                    <th class="col-md-1">奇异值</th>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td class="tableTextLeft">三角函数sin()</td>
+                        <td class="option-master"><i></i><span>精通</span></td>
+                        <td class=" time">10分钟</td>
+                        <td ><a class="btn-floating  waves-effect waves-light  qyz-style qyz-style-jt">100</a></td>
+                    </tr>
+                    <tr>
+                        <td class="tableTextLeft">三角函数sin()</td>
+                        <td class="option-skilled"><i></i><span>熟练</span></td>
+                        <td class="time">20分钟</td>
+                        <td ><a class="btn-floating  waves-effect waves-light  qyz-style qyz-style-sl">100</a></td>
+                    </tr>
+                    <tr>
+                        <td class="tableTextLeft">三角函数sin()</td>
+                        <td class="option-ordinary"><i></i><span>普通</span></td>
+                        <td class="time">50分钟</td>
+                        <td ><a class="btn-floating  waves-effect waves-light  qyz-style qyz-style-pt">100</a></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <!--排名分析表格-->
+        <div class="container pmfx">
+            <div class="table-exercise row con_bg">
+                <table class="table table-hover table-responsive">
+                    <thead >
+                    <th class="col-md-6 tableTextLeft">最强表现</th>
+                    <th class="col-md-5 ">时间</th>
+                    <th class="col-md-1 text-alignRight">表现</th>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td class="tableTextLeft">三角函数sin()</td>
+                        <td class="time ">2016/10/10</td>
+                        <td class="text-alignRight"><a>10%</a></td>
+                    </tr>
+                    <tr>
+                        <td class="tableTextLeft">三角函数sin()</td>
+                        <td class="time ">2016/10/10</td>
+                        <td class="text-alignRight"><a>10%</a></td>
+                    </tr>
+                    <tr>
+                        <td class="tableTextLeft">三角函数sin()</td>
+                        <td class="time ">2016/10/10</td>
+                        <td class="text-alignRight"><a>10%</a></td>
+                    </tr>
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+        <!--步骤插件-->
+        <div class="container">
+            <div class="step-box row">
+                <div class="col-md-5 step-one">
+                    <div class="step-btn col-md-3">
+                        <a class="waves-effect waves-light btn  btn-click">1</a>
+                        <span>选择项目</span>
+                    </div>
+                    <div class="step-line col-md-9">
+
+                    </div>
+                </div>
+                <div class="col-md-5 step-two">
+                    <div class="step-btn col-md-3">
+                        <a class="waves-effect waves-light btn btn-click">2</a>
+                        <span>配置计划</span>
+                    </div>
+                    <div class="step-line col-md-9">
+
+                    </div>
+                </div>
+                <div class="col-md-2 step-three">
+                    <div class="step-btn col-md-12">
+                        <a class="waves-effect waves-light btn btn-click">3</a>
+                        <span>预览计划</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </article>
+</section>
+<!--悬浮按钮结构-->
+<div class="fixed-action-btn click-to-toggle">
+    <a class="btn-floating btn-large waves-effect waves-light blue" id="btn">
+        <i class="material-icons">menu</i>
+    </a>
+    <ul>
+        <li>
+            <a class="btn btn-floating red tooltipped" data-position="left" data-delay="50" data-tooltip="学习轨迹">Hover me!</a>
+        </li>
+        <li><a class="btn btn-floating green tooltipped" data-position="left" data-delay="50" data-tooltip="学习分析">Hover me!</a></li>
+        <li><a class="btn btn-floating yellow tooltipped" data-position="left" data-delay="50" data-tooltip="创建单项练习">Hover me!</a></li>
+    </ul>
+</div>
+<div class="big hide"></div>
+<div class="popbox container hide">
+    <!--纠错默认-->
+    <div class="errorCorrection col-md-3">
+        <div class="row errorCorrInfo">提示</div>
+        <!--下拉列表框-->
+        <div class="dropdown errorCon row">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+            解析错误
+            <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu col-md-12">
+            <li><a href="#">解析错误</a></li>
+            <li><a href="#">解析不够详细</a></li>
+            <li><a href="#">没听明白</a></li>
+            </ul>
+        </div>
+        <div class="errorCorreBtn row">
+            <a href="###" class="btnStyle">确认纠错</a>
+        </div>
+    </div>
+
+    <!--训练完成提示框1-->
+    <div class="errorCorrection col-md-3">
+        <div class="row errorCorrInfo">提示</div>
+        <!--下拉列表框-->
+        <div class="errorCon row">
+            恭喜完成了“<span>xxx</span>”训练
+        </div>
+        <div class="errorCorreBtn row">
+            <a href="###" class="btnStyle btnGoing">继续做</a>
+            <a href="###" class="btnStyle">查看报告</a>
+        </div>
+    </div>
+    <!--训练完成提示框2-->
+    <div class="errorCorrection col-md-3">
+        <div class="row errorCorrInfo">提示</div>
+        <!--下拉列表框-->
+        <div class="errorCon row">
+            已学习 <span class="errMinu">xx</span> 分钟，是否继续？
+        </div>
+        <div class="errorCorreBtn row">
+            <a href="###" class="btnStyle notLearn">不学了</a>
+            <a href="###" class="btnStyle">继续</a>
+        </div>
+    </div>
+    <!--计划关闭提示框-->
+    <div class="errorCorrection col-md-3">
+        <div class="row errorCorrInfo">提示</div>
+        <!--下拉列表框-->
+        <div class="errorCon row">
+            计划尚未完成，是否提前结束
+        </div>
+        <div class="errorCorreBtn row">
+            <a href="###" class="btnStyle cancle">取消</a>
+            <a href="###" class="btnStyle">确认</a>
+        </div>
+    </div>
+    <!--试题提示框-->
+    <div class="errorCorrection col-md-3">
+        <div class="row errorCorrInfo">提示</div>
+        <!--下拉列表框-->
+        <div class="errorCon row">
+            尚未完成本题目，请完成提交
+        </div>
+        <div class="errorCorreBtn row">
+            <a href="###" class="btnStyle">提交</a>
+        </div>
+    </div>
+</div>
+</body>
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/bootstrap/js/bootstrap.js"></script>
+<script src="js/materialize/js/materialize.js"></script>
+<script>
+    $(function(){
+//        旋转效果
+        var btn = document.querySelector('#btn')
+        btn.addEventListener('click', function () {
+            btn.setAttribute('class' , 'btn rotate btn-floating btn-large red')
+            setTimeout(function () {
+                btn.setAttribute('class', 'btn-floating btn-large red')
+            }, 1000)
+        })
+        // 步骤点击效果
+        $(".btn-click").click(function(){
+//      当前样式
+            $(this).addClass("btn-clickstyleColor").parent().parent().prev().find('.btn-click').html('√');
+            $(this).next('span').addClass("font-active").parent().parent().prev().find('span').removeClass('font-active');
+        })
+    })
+
+</script>
+</html>

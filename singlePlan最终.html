@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>单项计划</title>
+
+    <link rel="stylesheet" href="css/bootstrap/css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/materialize/css/materialize.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="css/common.css"/>
+    <style>
+        .panel-heading.panel-dg {
+            background: #fff url(images/top_sanjiao.png) no-repeat 98% center;
+        }
+    </style>
+</head>
+<body>
+<!--header头部-->
+<header class="header-box">
+    <nav class="nav-extended">
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo">奇异数学</a>
+            <!--非首页显示创建计划-->
+            <a href="#" class="brand-logo brand-cjjh hide">学习中</a>
+            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">奇异数学</i></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li class="nav-home"><a href="sass.html"><img src="images/home.png" alt=""/></a></li>
+                <li class="nav-people"><a href="badges.html"><img src="images/nav_people.png" alt=""/></a></li>
+                <!--<li><a href="collapsible.html">JavaScript</a></li>-->
+            </ul>
+            <ul class="tabs tabs-transparent hide">
+                <li class="tab"><a href="#test1">时间轴</a></li>
+                <li class="tab"><a class="active" href="#test2">计划历史</a></li>
+                <li class="tab"><a href="#test3">单项历史</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<section>
+    <article>
+        <div class="clearFixed hide"></div>
+        <div class="container-box">
+            <div class="container pzjh dxxl">
+                <div class="row strength">
+                    <div class="col-md-12 ">
+                        <div class="right_box dxxl-padding">
+                            <p class="pzjh-title plan-strength">计划强度</p>
+                            <!--下拉列表框-->
+                            <div class="dropdown">
+                                <!-- Dropdown Trigger -->
+                                <a class='dropdown-button btn' href='#' data-activates='dropdown2'>大纲</a>
+                                <span class="caret"></span>
+                                <!-- Dropdown Structure -->
+                                <ul id='dropdown2' class='dropdown-content'>
+                                    <li><a href="#!">大纲</a></li>
+                                    <li><a href="#!">EJB</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="#!">three</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="container xzxm ps-marBot">
+                <div class="row search-box">
+                    <div class="col-md-5 search-boxMg">
+                        <!--<span class="search-btn col-md-2" ></span>-->
+                        <input placeholder="搜索" id="first_name" type="text" class="validate col-md-8" >
+                    </div>
+                    <div class="col-md-3" style="margin-right:2rem;">
+                        <!--下拉列表框-->
+                        <div class="dropdown">
+                            <!-- Dropdown Trigger -->
+                            <a class='dropdown-button btn' href='#' data-activates='dropdown1'>大纲</a>
+                            <span class="caret"></span>
+                            <!-- Dropdown Structure -->
+                            <ul id='dropdown1' class='dropdown-content'>
+                                <li><a href="#!">大纲</a></li>
+                                <li><a href="#!">EJB</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#!">three</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <div class="col-md-3 ">
+                        <!--下拉列表框-->
+                        <div class="dropdown">
+                            <!-- Dropdown Trigger -->
+                            <a class='dropdown-button btn' href='#' data-activates='dropdown2'>上册</a>
+                            <span class="caret"></span>
+                            <!-- Dropdown Structure -->
+                            <ul id='dropdown2' class='dropdown-content'>
+                                <li><a href="#!">上册</a></li>
+                                <li><a href="#!">下册</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#!">three</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="search-pop col-md-5" style="display: none">
+                    <ul class="col-md-12">
+                        <li>一次函数一次函数一次函数一次函数一次函数</li>
+                        <li>一次函数一次函数一次函数一次函数一次函数</li>
+                        <li>一次函数一次函数一次函数一次函数一次函数</li>
+                        <li class="liSelect">一次函数一次函数一次函数一次函数一次函数</li>
+                        <li>一次函数一次函数一次函数一次函数一次函数</li>
+                    </ul>
+                </div>
+                <!--折叠面板-->
+                <div class="row foldingPanel">
+                    <div class="panel-group" id="accordion">
+                        <div class="panel panel-default">
+
+                            <div class="panel-heading panel-dg">
+                                <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse1" class="panelTitleColor" id="">父节点111</a></h4>
+                            </div>
+
+                            <div id="collapse1" class="panel-collapse collapse ">
+                                <div class="panel-body">
+                                    <div class="panel-group" id="accordion1">
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading panel-dg"><h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion1"  href="#collapsezj1" >子集111</a></h4></div>
+                                            <div id="collapsezj1" class="panel-collapse collapse ">
+                                                <div class="panel-body">
+
+                                                    <div class="panel-group" id="accordionz1">
+                                                        <div class="panel panel-default">
+                                                            <div class="panel-heading panel-dg"><h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordionz1" href="#collapsezjz1">子集111---1</a></h4></div>
+                                                            <div id="collapsezjz1" class="panel-collapse collapse">
+                                                                <div class="panel-body">
+                                                                    <div class="panel-body panel-bg">节点111</div>
+                                                                    <div class="panel-body">节点222</div>
+                                                                    <div class="panel-body">节点333</div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="panel panel-default">
+                                                            <div class="panel-heading panel-dg"><h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordionz1" href="#collapsezjz2">子集111---2</a></h4></div>
+                                                            <div id="collapsezjz2" class="panel-collapse collapse ">
+                                                                <div class="panel-body">
+                                                                    <div class="panel-body panel-bg">节点444</div>
+                                                                    <div class="panel-body">节点555</div>
+                                                                    <div class="panel-body">节点666</div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading panel-dg"><h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion1"  href="#collapsezj2">子集222</a></h4></div>
+                                            <div id="collapsezj2" class="panel-collapse collapse ">
+                                                <div class="panel-body">
+
+                                                    <div class="panel-group" id="accordionz9">
+                                                        <div class="panel panel-default">
+                                                            <div class="panel-heading panel-dg"><h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordionz9"  href="#collapsezjz3">子集222---1</a></h4></div>
+                                                            <div id="collapsezjz3" class="panel-collapse collapse ">
+                                                                <div class="panel-body">
+                                                                    <div class="panel-body panel-bg">节点777</div>
+                                                                    <div class="panel-body">节点888</div>
+                                                                    <div class="panel-body">节点999</div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="panel panel-default">
+                                                            <div class="panel-heading panel-dg"><h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordionz9"  href="#collapsezjz4">子集222---2</a></h4></div>
+                                                            <div id="collapsezjz4" class="panel-collapse collapse ">
+                                                                <div class="panel-body">
+                                                                    <div class="panel-body panel-bg">节点aaa</div>
+                                                                    <div class="panel-body">节点bbb</div>
+                                                                    <div class="panel-body">节点ccc</div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default">
+
+                            <div class="panel-heading panel-dg">
+                                <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse2" class="panelTitleColor">父节点222</a></h4>
+                            </div>
+
+                            <div id="collapse2" class="panel-collapse collapse ">
+                                <div class="panel-body">
+                                    <div class="panel-group" id="accordion2">
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading panel-dg"><h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion2"  href="#collapsezj3">子集111</a></h4></div>
+                                            <div id="collapsezj3" class="panel-collapse collapse ">
+                                                <div class="panel-body">
+
+                                                    <div class="panel-group" id="accordionz3">
+                                                        <div class="panel panel-default">
+                                                            <div class="panel-heading panel-dg"><h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordionz3"  href="#collapsezjz5">子集111---1</a></h4></div>
+                                                            <div id="collapsezjz5" class="panel-collapse collapse ">
+                                                                <div class="panel-body">
+                                                                    <div class="panel-body panel-bg">节点111</div>
+                                                                    <div class="panel-body">节点222</div>
+                                                                    <div class="panel-body">节点333</div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="panel panel-default">
+                                                            <div class="panel-heading panel-dg"><h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordionz3"  href="#collapsezjz6">子集111---2</a></h4></div>
+                                                            <div id="collapsezjz6" class="panel-collapse collapse ">
+                                                                <div class="panel-body">
+                                                                    <div class="panel-body panel-bg">节点444</div>
+                                                                    <div class="panel-body">节点555</div>
+                                                                    <div class="panel-body">节点666</div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading panel-dg"><h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion2"  href="#collapsezj4">子集222</a></h4></div>
+                                            <div id="collapsezj4" class="panel-collapse collapse ">
+                                                <div class="panel-body">
+
+                                                    <div class="panel-group" id="accordionz4">
+                                                        <div class="panel panel-default">
+                                                            <div class="panel-heading panel-dg"><h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordionz4"  href="#collapsezjz7">子集222---1</a></h4></div>
+                                                            <div id="collapsezjz7" class="panel-collapse collapse ">
+                                                                <div class="panel-body">
+                                                                    <div class="panel-body panel-bg">节点777</div>
+                                                                    <div class="panel-body">节点888</div>
+                                                                    <div class="panel-body">节点999</div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="panel panel-default">
+                                                            <div class="panel-heading panel-dg"><h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordionz4"  href="#collapsezjz8">子集222---2</a></h4></div>
+                                                            <div id="collapsezjz8" class="panel-collapse collapse ">
+                                                                <div class="panel-body">
+                                                                    <div class="panel-body panel-bg">节点aaa</div>
+                                                                    <div class="panel-body">节点bbb</div>
+                                                                    <div class="panel-body">节点ccc</div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container ps-fix">
+                <div class="row ">
+                    <a class="waves-effect waves-light btn btn-lg btn-block comm-largeBtn btn-bgColor ">开始训练</a>
+                </div>
+            </div>
+        </div>
+    </article>
+</section>
+
+</body>
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/bootstrap/js/bootstrap3.js"></script>
+<script src="js/materialize/js/materialize.js"></script>
+<script>
+    $(function(){
+        $('.panel-title a').click(function () {
+            var p = $(this).parent().parent()
+            if (!(p.next().attr('aria-expanded') === 'true')) {
+                p.attr('class', 'panel-heading panel-bg')
+            } else {
+                p.attr('class', 'panel-heading panel-dg')
+            }
+        })
+        $('.panel-body').click(function (e) {
+
+            if (!$(this).children().length) {
+                $(this).addClass('panel-bg').siblings().removeClass('panel-bg')
+            }
+        })
+    })
+</script>
+</html>
